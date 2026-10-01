@@ -12,6 +12,8 @@
 | D6 | Success markers for 'recognized globally' (priority order): (1) link/listing from an official COP32/UNFCCC/government channel; (2) formal government endorsement; (3) press coverage. User counts/country reach are secondary. | User choice 2026-10-01 | Downloads/users as primary | KPIs in project-definition.md; outreach plan targets these three first | Decided |
 | D7 | Team compensation: volunteers; deferred pay via Profit Participation Right (PPR) of up to 15% of net profit when product is sold or funded. | User 2026-10-01 | — | Needs legal drafting (see flags in project-definition.md §15) | Recorded; legal review pending |
 
+| D8 | Delegates' negotiation workflows (delegation management, closed negotiation schedules, draft-text tracking, bilateral booking, badge-gated areas) are out of scope; delegates may use public features; integration/linking possible later; revisit in Phase 5. | Owned by UNFCCC platform, confidential data, duplication, security/legal risk, credibility | Build delegate tools | Narrows MVP; reduces risk | Decided 2026-10-01 |
+
 ## Open questions
 - Government target (researched; hypothesis ranking in research/government-stakeholders.md; no contact yet)
 - PPR terms: is 15% a total pool or per person? How is 'net profit' defined for grant income? Are IP-assignment agreements signed?

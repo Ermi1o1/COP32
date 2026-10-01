@@ -2,7 +2,8 @@
 | Phase | Status |
 |---|---|
 | 0 Reality check | Done (D1) |
-| 1 Discovery | Done (D2–D7 recorded) |
-| 2 Project definition | **Draft v1 written — awaiting user review** |
-| 3+ | Not started |
-Next session: read docs/decisions/log.md, docs/product/project-definition.md, docs/roadmap/phase-status.md.
+| 1 Discovery | Done (D2–D7) |
+| 2 Project definition | Done — approved by user 2026-10-01 (D8 added) |
+| 3 COP32 research | **First pass written — awaiting user review; follow-up pass needed when official pages publish** |
+| 4+ | Not started |
+Next session: read docs/decisions/log.md, docs/research/cop32-context.md, docs/roadmap/phase-status.md.
