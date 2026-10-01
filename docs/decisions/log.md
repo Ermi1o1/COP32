@@ -14,7 +14,9 @@
 
 | D8 | Delegates' negotiation workflows (delegation management, closed negotiation schedules, draft-text tracking, bilateral booking, badge-gated areas) are out of scope; delegates may use public features; integration/linking possible later; revisit in Phase 5. | Owned by UNFCCC platform, confidential data, duplication, security/legal risk, credibility | Build delegate tools | Narrows MVP; reduces risk | Decided 2026-10-01 |
 
-| D9 (PROPOSED) | Treat Ethiopian reach as multi-channel: web/PWA-first, lightweight, Amharic, offline-tolerant, with evaluation of Telegram/SMS channels; native apps later. Evaluate in Phases 8/11/14. | Phase 3 second pass: ~19% internet penetration; 30% rural internet-enabled phone ownership | Native-app-first | Shapes MVP/platform; Awaiting approval | Proposed |
+| D9 | **Platforms and languages (finalized by user 2026-10-01):** native Android and iOS apps plus a web app; English and Amharic are the default languages from day one. Rationale: likely users are mostly in Addis Ababa and connected, plus international users; native apps needed for demo/pitch. Engineering practice (not a separate product): keep payloads light and cache content for patchy connectivity. Not pursued now: SMS/USSD/Telegram channels (revisit if usage data shows need). Technology stack not yet chosen (Phase 11). | User judgement that target users are connected and Addis-based; Phase 3 data shows national connectivity is low but Addis/urban and international users are well connected | Web/PWA-first only; native-first without web | 3 deliverables with 3 developers: accepted by user (team capable); risk R8/R3 stays on register; G1 demo gate 31 Dec 2026 will test capacity | Decided 2026-10-01 |
+
+| D10 (INPUT) | A visual demo/prototype is needed early so officials can 'see how it looks and works' (supports gate G1). Format (clickable prototype vs partial build) to be decided in Phase 10/18, no UI design before then per project rules. | User need for pitch | — | Informs roadmap | Noted |
 
 ## Open questions
 - Government target (researched; hypothesis ranking in research/government-stakeholders.md; no contact yet)
