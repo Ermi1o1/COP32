@@ -18,6 +18,8 @@
 
 | D10 (INPUT) | A visual demo/prototype is needed early so officials can 'see how it looks and works' (supports gate G1). Format (clickable prototype vs partial build) to be decided in Phase 10/18, no UI design before then per project rules. | User need for pitch | — | Informs roadmap | Noted |
 
+| D11 (PROPOSED) | Bundle an Ethiopic font in the apps and web app, and make real-device Amharic testing (rendering, search, screen reader) a QA requirement. | Android OEM fonts may lack Ge'ez glyphs (tofu boxes) | Rely on system fonts | Small effort; avoids a visible failure in the demo | Proposed |
+
 ## Open questions
 - Government target (researched; hypothesis ranking in research/government-stakeholders.md; no contact yet)
 - PPR terms: is 15% a total pool or per person? How is 'net profit' defined for grant income? Are IP-assignment agreements signed?

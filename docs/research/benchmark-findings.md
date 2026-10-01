@@ -62,3 +62,58 @@ Pricing sources are competitor/comparison blogs: **low reliability**.
 
 ## E. Gaps in this pass (to close in a second pass if you want)
 Hands-on testing; primary UNFCCC pages; COP29 apps; Commonwealth/Tokyo/Osaka/G20/Web Summit/festival apps; vendor offline/API/accessibility documentation (Swapcard, Cvent, Bizzabo, Brella, Airmeet, vFairs); app-store ratings/reviews of COP28/COP30 apps; analytics from any of these (none public).
+
+---
+# Second pass (2026-10-01)
+## F. Additional benchmarks
+### F1. COP29 (Baku 2024)
+- Two UNFCCC-listed apps [V: unfccc.int, Google Play `com.unfccc.cop29`]: (1) **UN Climate Change app** — host-team and UNFCCC practical info and guides, official documents, session information, meetings/events with search filters, public webcast streams, **Baku transport navigation**, **venue interactive maps**, news/photos/video; (2) **COP29 Platform app** — virtual participation by badge type, personal schedule with push notifications for programme changes, COP profile for networking, notifications when official documents are issued.
+- Host also launched an **accommodation platform** and an "enhanced digital info platform" before the conference [V: cop29.az, news.az].
+- Pattern confirmed across COP28/29/30: UNFCCC app/platform (docs + sessions, badge-gated virtual) + host info/logistics layer. Accommodation/transport are host-side digital needs — the same gaps we identified for Addis.
+
+### F2. Expo 2025 Osaka
+- Official **EXPO 2025 Visitors** app: pavilion reservations, ticket/reservation status, map, **real-time wait times and crowding for pavilions and toilets**, real-time schedules, stamp rally, live location; companion tools **Personal Agent** (facility info, crowd status, routes) and **EXPO Translation** for talking to staff [V/I: expo2025.or.jp, Japan Travel].
+- Lessons: crowd/queue visibility, in-venue translation, and gamified participation (stamp rally) are mainstream for mass-visitor events; relevant to Green Zone/pavilion experience.
+
+### F3. Tokyo 2020 / Birmingham 2022
+- Tokyo official app criticisms [I, user reviews via search]: too many steps to find information, little customisation, times shown in Tokyo local time with no time-zone option. A government-mandated OCHA check-in/health app existed for participants [I].
+- Birmingham 2022 app: medal tables, schedule with videos, festival info, volunteer jobs, tickets [V].
+- Lessons: **time-zone handling** matters for a global remote audience (COP32 Addis = EAT, UTC+3) — we must show local and user time zones; keep navigation shallow.
+
+### F4. Conferences: Web Summit, CES, SXSW
+- Web Summit: proprietary platform (Summit Engine); algorithmic suggestions and curated side events to cope with volume; ~21,000 meetings among ~13,000 active networkers reported [I, secondary].
+- CES: QR "MagicBadge" contact exchange; reviewer noted no scheduling of pre-arranged vendor meetings and no schedule-to-map link [I: app-store review quoted via search].
+- SXSW (London/EDU): AI connection recommendations, "Networking Roulette"; reviewers say outreach to specific people is weak at 8,000 attendees [I].
+- General critique [I, vendor/blog]: checkbox-taxonomy matching captures categories, not intent; network features see 40–70% use only when networking is a stated goal.
+- Lessons: for COP32's public audience, deep matchmaking is low priority; QR contact exchange, schedule-to-map links, and meeting scheduling are the practical wins.
+
+### F5. Africa-specific
+- AFCON 2023 (Côte d'Ivoire): searches found no useful information on an official fan/event app or on connectivity issues. **Gap.**
+- ACS1 Nairobi (2023): ~30,000 delegates; ACS2 Addis (2025): 25,000+; no official app found for either [I]. Absence is not proof.
+
+## G. Vendor documentation checked
+| Vendor | Finding [V unless noted] |
+|---|---|
+| Swapcard | **SwapAccess** badge scanning works offline using a cached allow-list and syncs later; public developer API docs (developer.swapcard.com), Salesforce and registration integrations, public bug-bounty program (YesWeHack) |
+| Cvent Attendee Hub | WCAG 2.1 AA targeted; VPATs published; colour-contrast controls, screen-reader support, real-time captions on video, keyboard-only UI, accessible self check-in |
+| vFairs | WCAG 2.1 AA, ADA, AODA claims; text resizing, contrast controls, keyboard navigation, screen reader, audio narration |
+| Whova | Offline read of agenda/map/lists (from first pass) |
+| EventMobi | 27 languages, native iOS/Android, white label with app-store caveat (first pass) |
+Still not retrieved: Brella, Airmeet, Bizzabo, Hopin-successor documentation; offline support for Swapcard attendee app and EventMobi.
+
+## H. Amharic / Ge'ez rendering (new, important for D9)
+- Ge'ez glyphs are missing from some system fonts; unsupported glyphs render as boxes ("tofu"). iOS usually falls back to system fonts, but **Android depends on the OEM** — a device may lack Amharic glyphs (example given: Xiaomi) [I: localisation testing guidance].
+- Mitigation (D, recommendation): **bundle an Ethiopic font (e.g. Noto Sans Ethiopic) in the app and web app**, test on the real Android models common in Addis, and include Amharic in QA and accessibility testing (screen-reader pronunciation of Amharic is an open risk).
+- Keyboard input: third-party Ge'ez keyboards exist (GeezIME, FynGeez); built-in Amharic keyboards exist on Android/iOS. Search must handle Ge'ez variants (e.g., homophone letters) — feature to specify in Phase 9.
+
+## I. Updated cross-cutting conclusions
+1. COP28/29/30 all split **UNFCCC platform vs host logistics layer**; COP29 added a host accommodation platform. Our natural fit = host-side layer: map/transport/accommodation/itineraries/Green Zone info.
+2. Mass-event apps (Expo 2020/2025) win on **wayfinding, queue/wait-time visibility and slot booking** — these solve physical pain; they require venue-side data feeds (partnership dependency).
+3. Networking is the most over-featured, least-validated category for a public audience.
+4. Time-zone display, shallow navigation, and bilingual privacy notices are repeated failure points.
+5. Offline: Whova (read-only offline) and Swapcard (offline scanning) are concrete examples; neither shows full offline-first.
+6. Accessibility claims (WCAG 2.1 AA) are widespread but unverified in practice; Amharic accessibility has no precedent we found.
+7. Build-vs-buy remains open; vendors with open APIs (Swapcard) could supply a demo or integrate later.
+
+## J. Remaining gaps (accept for now)
+Hands-on testing (plan below); G20/Glastonbury/Coachella; FIFA 2022 official fan app features; Olympics Paris detailed features; AFCON; vendor docs for Brella/Airmeet/Bizzabo; user reviews/ratings of COP apps; any usage analytics.

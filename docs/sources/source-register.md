@@ -51,3 +51,12 @@
 | EventMobi multilingual native apps | EventMobi | n.d. | Languages/white label | https://help.eventmobi.com/en/knowledge/can-we-have-multilingual-native-apps-in-the-app-stores | Medium (vendor) | 27 languages; white-label caveat |
 | Event app comparisons (Eventify, Whova, Heysummit) | Vendor blogs | 2026 | Pricing/positioning | https://eventify.io/blog/best-event-apps | Low (competitor claims) | Pricing ranges |
 | Second Africa Climate Summit stats | AU / UNDP | 2025 | Scale reference | https://au.int/en/pressreleases/20250909/acs2-opens-addis-ababa-call-4-climate-investment-african-led-solution | High (via search) | 25k+ participants, 300+ side events, 24 pavilions |
+| COP 29 mobile apps | UNFCCC | 2024 | COP29 apps | https://unfccc.int/ru/node/640652 | High (via search) | UN Climate Change app + COP29 Platform app |
+| COP29 launches enhanced digital info platform | news.az / cop29.az | 2024 | Host digital layer | https://news.az/news/cop29-launches-enhanced-digital-info-platform-ahead-of-baku-conference | Medium | Host info + accommodation platform |
+| EXPO 2025 Visitors app | Expo 2025 organisers | 2025 | Mass-event app | https://www.expo2025.or.jp/en/visitorsapp/ | High (official) | Reservations, wait times, crowding, translation |
+| Tokyo 2020 / Birmingham 2022 apps | App stores/support pages | 2021–22 | Usability lessons | https://supporttokyo2020.olympics.com/hc/en-us/sections/4404263362195-Mobile-App | Medium | Time-zone and navigation complaints |
+| Web Summit / CES / SXSW apps | Vendor & store pages, blogs | 2026 | Conference apps | https://websummit.com/app/ | Medium-Low | Matchmaking at scale; critique of networking |
+| Swapcard SwapAccess / API | Swapcard help centre | 2025 | Vendor offline/API | https://help.swapcard.com/en/articles/8159010-getting-started-with-swapaccess | Medium (vendor) | Offline scanning; developer API |
+| Cvent accessibility | Cvent | n.d. | Vendor accessibility | https://www.cvent.com/en/event-marketing-management/accessibility | Medium (vendor) | WCAG 2.1 AA targeted, VPATs |
+| vFairs accessibility | vFairs | n.d. | Vendor accessibility | https://www.vfairs.com/features/accessibility/ | Medium (vendor) | WCAG 2.1 AA claims |
+| Localization testing for mobile apps | Drizz | 2026 | Amharic/Ge'ez rendering | https://www.drizz.dev/post/localization-testing-for-mobile-apps | Low-Medium | Tofu glyphs; Android OEM variation |
