@@ -1,7 +1,7 @@
 # Phase Status (updated 2026-10-01)
 | Phase | Status |
 |---|---|
-| 0 Reality check | **Done — user chose Option 1 (complementary/unofficial), see decisions/log.md D1** |
-| 1 Discovery questions | **In progress — questions asked, awaiting answers** |
-| 2+ | Not started |
-Next session: read docs/decisions/log.md, docs/research/reality-check.md, then docs/product/discovery-answers.md (once it exists).
+| 0 Reality check | Done — Option 1 chosen (decisions D1) |
+| 1 Discovery questions | **Answers recorded; awaiting user review of flags & open questions** |
+| 2 Project definition | Not started (blocked on Phase 1 review) |
+Next session: read docs/decisions/log.md, docs/product/discovery-answers.md, docs/research/post-event-precedents.md.
