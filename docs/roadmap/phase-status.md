@@ -10,7 +10,8 @@
 | 6 Personas & journeys | Done — approved 2026-10-01 (BA validation pending, non-blocking) |
 | 7 Feature catalog | Done — founder ideas added (F-01..F-10), D14 proposed |
 | 8 MVP prioritisation | Done — approved 2026-10-01 (D14, D15) |
-| 9 Information architecture | **v2 written after second pass — awaiting founder approval (D16 v2); BA validation kit issued (non-blocking)** |
-| 10 User flows | **Draft v1 written — awaiting founder review** |
-| 11+ | Not started |
+| 9 Information architecture | Done — D16 v2 approved 2026-10-01; BA validation kit issued (non-blocking) |
+| 10 User flows | Done — approved 2026-10-01 |
+| 11 Technical architecture | **Draft v1 written — awaiting founder review (D17, D18 proposed)** |
+| 12+ | Not started |
 Next session: read docs/decisions/log.md, docs/research/cop32-context.md, docs/roadmap/phase-status.md.
