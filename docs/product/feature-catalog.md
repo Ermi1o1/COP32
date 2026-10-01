@@ -219,10 +219,29 @@ NET-06 AI matchmaking · EXH-07 virtual booths · NAV-10 indoor wayfinding · in
 8. **Local business directory** (restaurants, guides) for visitors — sponsor-funded ⚠ neutrality.
 9. **Post-COP "Addis Climate Hub"** — the platform becomes a permanent climate-events calendar for Addis (AU/UNECA events), supporting D5 and sustainability.
 
-## Founder ideas (to add — D13)
-| ID | Idea | Notes |
-|---|---|---|
-| F-01 | _(your idea)_ | |
+## Founder ideas (added 2026-10-01, D13)
+Founder's direction: **"All in one app" — everything a visitor needs in one place.** Bookings and official processes are **linked out** to the designated provider or official portal, not built in-house (D14).
+| ID | Idea | Description | Personas | When | Dep | Notes / evidence |
+|---|---|---|---|---|---|---|
+| F-01 | One-stop visitor hub | Organising concept: the app as the single entry point to everything a COP32 visitor needs (event + city + travel) | All | All | — | Becomes the product's framing; implemented through INF/NAV/F features |
+| F-02 | Hotel booking (link-out) | Accommodation listings → hand-off to official accommodation platform or provider sites | P1 P11 P14 | Pre | H 3P | COP29 host ran an accommodation platform; Addis ~25k beds vs 50–80k demand |
+| F-03 | Flight booking (link-out) | Links to airline/booking sites | P1 P14 | Pre | 3P | Low added value (visitors book anyway); keep simple |
+| F-04 | Visa process (link-out) | Step-by-step guide → official Ethiopian e-visa portal (evisa.gov.et) | P1 P14 | Pre | — | Official portal exists; COP32-specific visa arrangements not yet announced |
+| F-05 | Ride-hailing options (deep links) | Compare and open local ride apps | P1 P2 P14 | During | 3P | Local apps reported: Ride, Feres, ZayRide, Yango (blog sources, verify); some need a local phone number |
+| F-06a | Public transport routes & trip planner | Light rail, Anbessa/Sheger buses, minibus routes; trip planning | P1 P2 | During | 3P (open data) | Open GTFS for Addis exists (AddisMap/DigitalTransport4Africa 2026 data, OSM-based) |
+| F-06b | Real-time transit tracker | Live vehicle positions / departures | P1 P2 | During | 3P H | **No official real-time feed found**; only if operators provide data |
+| F-07 | Tourist attractions & must-visit places | Curated Addis sights, museums, day trips | P1 P2 P11 | Pre–Post | — | Own curated content; good for demo |
+| F-08 | Coffee culture & ceremony | Explain the ceremony, etiquette, where to experience it (museums, cultural restaurants, cafés) | P1 P11 | All | — | Founder's sentence was cut off — **please complete** |
+| F-09 | Light-rail digital ticket link | Link to the official digital ticketing (Telebirr app / USSD pilot) | P1 P2 | During | 3P | LRT digital ticketing pilot at 4 stations (2026 report) |
+| F-10 | Related/side events | Already covered by INF-07, EXH-*, NET-07 | — | — | — | Merged |
+
+### D14 — Integration-by-link principle (proposed)
+1. The app **does not process bookings, payments or visa applications**; it links to official portals or designated providers.
+2. **Official first:** where a government/host portal exists (e-visa, official accommodation platform), link to it only.
+3. **Neutral listing rules:** commercial providers (hotels, ride apps, airlines, tours) listed by transparent criteria; sponsored placement labelled; the owner (government) approves the provider list. Avoids favouritism complaints in a government-adopted product.
+4. **No data sharing by default:** no personal data passed to third parties; link-outs carry no user identifiers unless the user consents (Phase 13).
+5. **Broken-link resilience:** links monitored; fallback text with phone/website.
+6. Affiliate/referral revenue is a Phase 17 question and must not compromise neutrality.
 
 ## Next step
 Phase 8 will score these with a transparent method (user value, strategic value, complexity, cost, risk, dependency, time, scalability, COP32 relevance) and classify Must/Should/Could/Later/Not recommended.

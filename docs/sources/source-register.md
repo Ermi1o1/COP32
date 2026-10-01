@@ -60,3 +60,8 @@
 | Cvent accessibility | Cvent | n.d. | Vendor accessibility | https://www.cvent.com/en/event-marketing-management/accessibility | Medium (vendor) | WCAG 2.1 AA targeted, VPATs |
 | vFairs accessibility | vFairs | n.d. | Vendor accessibility | https://www.vfairs.com/features/accessibility/ | Medium (vendor) | WCAG 2.1 AA claims |
 | Localization testing for mobile apps | Drizz | 2026 | Amharic/Ge'ez rendering | https://www.drizz.dev/post/localization-testing-for-mobile-apps | Low-Medium | Tofu glyphs; Android OEM variation |
+| Ride-hailing services in Ethiopia | Local blogs (livingethio, aemeromedia, adey) | 2025–26 | Ride-hailing | https://livingethio.com/site/blog/ride-hailing-services-in-ethiopia-uber-like-apps-you-can-use-in-addis-ababa | Low-Medium | Ride, Feres, ZayRide, Yango active in Addis |
+| AddisMap Transit GTFS / addis-bus-map | AddisMap; GitHub | 2026 | Public transport data | https://github.com/AddisMap/AddisMapTransit-gtfs | Medium | Open GTFS: LRT, 199 bus routes, 247 minibus routes; no official real-time |
+| New app maps Addis public transport routes | Shega | n.d. | Transit app | https://shega.co/news/new-app-maps-out-addis-ababas-public-transport-routes | Medium | Trip planner built on Trufi/OpenTripPlanner |
+| Addis Ababa Light Rail digital ticketing pilot | Stockmarket.et | 2026 | Ticketing | https://www.stockmarket.et/addis-ababa-light-rail-to-pilot-digital-ticketing-system/ | Medium | Telebirr/USSD tickets at 4 stations |
+| Ethiopian coffee ceremony guides | Addis Expat, GetYourGuide | 2026 | Culture content | https://addisexpat.com/blogs/ethiopian-coffee-ceremony-guide | Low-Medium | Where/how visitors experience the ceremony |
