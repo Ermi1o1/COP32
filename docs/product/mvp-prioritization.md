@@ -1,5 +1,5 @@
 # Phase 8 — MVP & Product Prioritisation (draft v1, 2026-10-01)
-Inputs: feature-catalog.md (133 catalog features + 10 founder ideas + 9 bold ideas = 152 items), personas (D12), decisions D1–D14.
+Inputs: feature-catalog.md (133 catalog features + 14 founder-idea items incl. expanded F-08a–e + 9 bold ideas = 156 items), personas (D12), decisions D1–D14.
 **Status: draft for review.** Scores are structured judgement, not measurement — the method is transparent so anyone can re-score. BA interview results and hands-on tests may change scores.
 
 ## 1. Definitions
@@ -36,14 +36,14 @@ Score = Σ(score × weight); range 14–42.
 ## 3. Results summary
 | Class | Count | Notes |
 |---|---|---|
-| Must | 72 | 52 small, 20 medium, 0 large. ~25 are mainly **editorial content** (explainers, guides, FAQs), not engineering |
-| Should | 40 | Event release if capacity |
-| Could | 22 | If capacity / post-event |
-| Later | 15 | After COP32 |
+| Must | 73 | 52 small, 21 medium, 0 large. ~26 are mainly **editorial content** (explainers, guides, FAQs), not engineering |
+| Should | 41 | Event release if capacity |
+| Could | 23 | If capacity / post-event |
+| Later | 16 | After COP32 |
 | Not recommended | 3 | |
-Must by release: Demo 30 · Pilot 31 · Event 9 · Post-event 2.
+Must by release: Demo 30 · Pilot 32 · Event 9 · Post-event 2.
 
-**Capacity warning (challenge):** 72 Musts is a lot for 3 volunteer developers across Android, iOS and web, plus EN/AM content. Mitigations: (a) content Musts fall on the BA/PM/content contributors, not developers; (b) if Phase 18 estimates exceed capacity, **raise the Must threshold to ≥ 37** (≈ 52 Musts + foundations) and move 35–36 items to Should; (c) a cross-platform framework choice in Phase 11 could reduce effort (not decided).
+**Capacity warning (challenge):** 73 Musts is a lot for 3 volunteer developers across Android, iOS and web, plus EN/AM content. Mitigations: (a) content Musts fall on the BA/PM/content contributors, not developers; (b) if Phase 18 estimates exceed capacity, **raise the Must threshold to ≥ 37** (≈ 52 Musts + foundations) and move 35–36 items to Should; (c) a cross-platform framework choice in Phase 11 could reduce effort (not decided).
 
 ## 4. Key prioritisation decisions and reasoning
 1. **Visitor hub framing wins (F-01):** city companion items (transport, accommodation link-outs, arrival checklist, attractions, coffee culture, ride-hailing) score Must — high Tier-1 value, little dependency, strong demo appeal, and they match the founder's "all in one app" vision via link-outs (D14).
@@ -62,7 +62,7 @@ Home in EN/AM → COP32 overview & "Can I attend?" → sample programme & sessio
 
 ## 6. Full scoring table
 
-### Must (72)
+### Must (73)
 | ID | Feature | UV | SV | CR | FE | TI | R | DP | SC | Score /42 | Size | Release | Note |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | INF-01 | COP32 overview | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 42 | S | Demo (Dec 2026) |  |
@@ -116,7 +116,7 @@ Home in EN/AM → COP32 overview & "Can I attend?" → sample programme & sessio
 | OPS-02 | Offline volunteer FAQ | 2 | 3 | 3 | 3 | 3 | 3 | 2 | 3 | 37 | S | Pilot (Jun 2027) |  |
 | ADM-07 | Privacy-respecting analytics | 2 | 3 | 2 | 3 | 3 | 3 | 3 | 3 | 37 | S | Pilot (Jun 2027) |  |
 | ADM-09 | Audit log | 2 | 3 | 2 | 3 | 3 | 3 | 3 | 3 | 37 | S | Pilot (Jun 2027) | Foundation override |
-| F-08 | Coffee culture & ceremony | 2 | 3 | 2 | 3 | 3 | 3 | 3 | 3 | 37 | S | Demo (Dec 2026) |  |
+| F-08a | Coffee ceremony guide (content) | 2 | 3 | 2 | 3 | 3 | 3 | 3 | 3 | 37 | S | Demo (Dec 2026) |  |
 | INF-03 | Programme / schedule | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 3 | 36 | M | Demo (Dec 2026) |  |
 | INF-07 | Side-events directory | 3 | 3 | 3 | 2 | 2 | 2 | 2 | 3 | 36 | M | Event (Oct 2027) |  |
 | NAV-02 | Session-to-map link | 3 | 2 | 2 | 3 | 3 | 3 | 2 | 3 | 36 | S | Event (Oct 2027) |  |
@@ -134,11 +134,12 @@ Home in EN/AM → COP32 overview & "Can I attend?" → sample programme & sessio
 | NAV-09 | Accessibility info (venues) | 3 | 3 | 3 | 2 | 2 | 3 | 1 | 3 | 35 | M | Event (Oct 2027) |  |
 | NOT-01 | Schedule-change alerts | 3 | 3 | 3 | 2 | 2 | 3 | 1 | 3 | 35 | M | Event (Oct 2027) |  |
 | PST-03 | Outcomes & follow-up | 2 | 3 | 3 | 3 | 2 | 2 | 2 | 3 | 35 | S | Post-event |  |
+| F-08d | Coffee & climate story | 2 | 3 | 3 | 2 | 2 | 2 | 3 | 3 | 35 | M | Pilot (Jun 2027) |  |
 | NOT-03 | Emergency / safety alerts | 3 | 3 | 3 | 2 | 2 | 2 | 1 | 3 | 34 | M | Pilot (Jun 2027) | Foundation override |
 | TRU-03 | Delete / export my data | 2 | 3 | 2 | 2 | 2 | 3 | 3 | 3 | 34 | M | Pilot (Jun 2027) | Foundation override |
 | TRU-07 | Consent management | 2 | 3 | 2 | 2 | 2 | 3 | 3 | 3 | 34 | M | Pilot (Jun 2027) | Foundation override |
 
-### Should (40)
+### Should (41)
 | ID | Feature | UV | SV | CR | FE | TI | R | DP | SC | Score /42 | Size | Release | Note |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | NAV-06 | Road closures & traffic alerts | 3 | 3 | 3 | 2 | 2 | 2 | 1 | 3 | 34 | M | Event (if capacity) |  |
@@ -175,6 +176,7 @@ Home in EN/AM → COP32 overview & "Can I attend?" → sample programme & sessio
 | OPS-05 | Operational broadcasts | 2 | 2 | 2 | 3 | 3 | 3 | 1 | 3 | 31 | S | Event (if capacity) |  |
 | ADM-06 | Moderation queue | 2 | 1 | 1 | 3 | 3 | 3 | 3 | 3 | 31 | S | Event (if capacity) |  |
 | F-03 | Flight booking (link-out) | 1 | 2 | 2 | 3 | 3 | 2 | 3 | 3 | 31 | S | Event (if capacity) |  |
+| F-08b | 'Where to experience it' coffee trail (neutral listing) | 2 | 3 | 2 | 2 | 2 | 2 | 2 | 3 | 31 | M | Event (if capacity) |  |
 | NAV-11 | Queue / wait-time & capacity info | 3 | 3 | 3 | 1 | 1 | 2 | 1 | 2 | 30 | L | Event (if capacity) |  |
 | NET-03 | QR contact exchange | 2 | 1 | 1 | 3 | 3 | 2 | 3 | 3 | 30 | S | Event (if capacity) |  |
 | MED-10 | AI-assisted summaries (editor-reviewed) | 2 | 2 | 2 | 2 | 2 | 1 | 3 | 3 | 30 | M | Event (if capacity) |  |
@@ -182,7 +184,7 @@ Home in EN/AM → COP32 overview & "Can I attend?" → sample programme & sessio
 | EXH-05 | Exhibition map | 2 | 2 | 3 | 2 | 2 | 3 | 1 | 3 | 30 | M | Event (if capacity) |  |
 | F-06b | Real-time transit tracker | 3 | 3 | 3 | 1 | 1 | 2 | 1 | 2 | 30 | L | Event (if capacity) |  |
 
-### Could (22)
+### Could (23)
 | ID | Feature | UV | SV | CR | FE | TI | R | DP | SC | Score /42 | Size | Release | Note |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | INF-08 | Partners & sponsors directory | 1 | 2 | 1 | 3 | 3 | 2 | 3 | 3 | 29 | S | Post-event / if capacity |  |
@@ -202,18 +204,20 @@ Home in EN/AM → COP32 overview & "Can I attend?" → sample programme & sessio
 | MED-07 | Photo/video galleries | 1 | 2 | 2 | 3 | 3 | 2 | 1 | 3 | 27 | S | Post-event / if capacity |  |
 | PUB-05 | Commitments/pledges tracker | 2 | 3 | 3 | 1 | 1 | 1 | 1 | 3 | 27 | L | Post-event / if capacity |  |
 | OPS-03 | Report-issue button | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 3 | 27 | M | Post-event / if capacity |  |
+| F-08e | 'Buna break' meet-ups | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 2 | 27 | M | Post-event / if capacity |  |
 | ENG-01 | Session Q&A | 2 | 2 | 2 | 2 | 2 | 1 | 1 | 3 | 26 | M | Post-event / if capacity |  |
 | ENG-06 | Stamp rally / challenges | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 26 | M | Post-event / if capacity |  |
 | NET-05 | Meeting requests | 2 | 1 | 1 | 2 | 2 | 2 | 3 | 2 | 26 | M | Post-event / if capacity |  |
 | PST-07 | Certificates of participation | 1 | 2 | 2 | 3 | 3 | 2 | 1 | 2 | 26 | S | Post-event / if capacity |  |
 | ADM-10 | Open data / public API | 1 | 2 | 1 | 2 | 2 | 2 | 3 | 3 | 26 | M | Post-event / if capacity |  |
 
-### Later (15)
+### Later (16)
 | ID | Feature | UV | SV | CR | FE | TI | R | DP | SC | Score /42 | Size | Release | Note |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | NOT-08 | SMS / Telegram channel | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 26 | M | After COP32 | Override |
 | ACC-06 | Additional languages | 2 | 2 | 2 | 1 | 1 | 2 | 2 | 3 | 26 | L | After COP32 | Override |
 | NET-02 | Participant discovery | 2 | 1 | 1 | 2 | 2 | 1 | 3 | 2 | 25 | M | After COP32 |  |
+| F-08c | Coffee passport (stamp rally) | 1 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 25 | M | After COP32 |  |
 | PER-12 | Cross-device sync | 1 | 1 | 1 | 2 | 2 | 2 | 3 | 3 | 24 | M | After COP32 |  |
 | NAV-10 | Indoor turn-by-turn wayfinding | 2 | 2 | 2 | 1 | 1 | 2 | 1 | 2 | 23 | L | After COP32 |  |
 | ACC-08 | Sign-language content | 2 | 2 | 2 | 1 | 1 | 2 | 1 | 2 | 23 | L | After COP32 |  |
@@ -233,6 +237,7 @@ Home in EN/AM → COP32 overview & "Can I attend?" → sample programme & sessio
 | B-02 | Amharic voice assistant | 2 | 2 | 2 | 1 | 1 | 1 | 3 | 2 | 26 | L | — | Override |
 | NET-06 | AI matchmaking | 1 | 1 | 1 | 1 | 1 | 1 | 3 | 2 | 19 | L | — | Override |
 | EXH-07 | Virtual booths | 1 | 1 | 1 | 1 | 1 | 1 | 3 | 1 | 18 | L | — | Override |
+
 ## 7. Next
 - Founder review of classes, especially Must count and Demo scope.
 - Re-score after BA interviews and hands-on tests.

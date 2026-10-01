@@ -231,11 +231,20 @@ Founder's direction: **"All in one app" — everything a visitor needs in one pl
 | F-06a | Public transport routes & trip planner | Light rail, Anbessa/Sheger buses, minibus routes; trip planning | P1 P2 | During | 3P (open data) | Open GTFS for Addis exists (AddisMap/DigitalTransport4Africa 2026 data, OSM-based) |
 | F-06b | Real-time transit tracker | Live vehicle positions / departures | P1 P2 | During | 3P H | **No official real-time feed found**; only if operators provide data |
 | F-07 | Tourist attractions & must-visit places | Curated Addis sights, museums, day trips | P1 P2 P11 | Pre–Post | — | Own curated content; good for demo |
-| F-08 | Coffee culture & ceremony | Explain the ceremony, etiquette, where to experience it (museums, cultural restaurants, cafés) | P1 P11 | All | — | Founder's sentence was cut off — **please complete** |
+| F-08 | **Buna (coffee) culture** — concept expanded 2026-10-01, see F-08a–d below | P1 P2 P11 | All | — | Ethiopia is widely regarded as the birthplace of coffee; the ceremony is a strong, authentic, low-risk cultural hook |
 | F-09 | Light-rail digital ticket link | Link to the official digital ticketing (Telebirr app / USSD pilot) | P1 P2 | During | 3P | LRT digital ticketing pilot at 4 stations (2026 report) |
 | F-10 | Related/side events | Already covered by INF-07, EXH-*, NET-07 | — | — | — | Merged |
 
-### D14 — Integration-by-link principle (proposed)
+### F-08 expanded — "Buna" coffee culture (all content below is general cultural knowledge; the editorial team must verify facts and get cultural-reviewer sign-off before publishing)
+| ID | Feature | Description | Dep | Notes |
+|---|---|---|---|---|
+| F-08a | Coffee ceremony guide | Short illustrated/audio guide in EN/AM: the three stages (roasting, brewing in the jebena, serving), the three rounds (abol, tona, baraka), incense and snacks, **visitor etiquette** (accept the first cup, don't rush, compliment the host) | — | Content only; good demo piece; audio version helps low-literacy and visitors |
+| F-08b | "Where to experience it" trail | Neutral, owner-approved list of places to see a ceremony (museums, cultural venues, cafés, hotel demonstrations, tours), shown on the city map | 3P | Must follow D14 neutrality: transparent criteria, sponsored placements labelled, no endorsement implied |
+| F-08c | Coffee passport (stamp rally) | Optional collectible stamps for visiting trail places; ties to ENG-06 | H 3P | Needs participating venues; fun, low priority |
+| F-08d | Coffee & climate story | Why coffee and climate are linked (climate pressure on coffee-growing areas, Ethiopia's role as origin) told in plain language; links to adaptation and Green Legacy themes | — | Strong narrative bridge between culture and the COP32 theme; **claims must be sourced** (e.g., published climate-suitability studies) before publishing |
+| F-08e | "Buna break" moments (idea) | Scheduled in-app prompts/events where visitors and locals meet over coffee at partner venues (opt-in, public places only) | H 3P | Light social alternative to heavy networking; moderation/safety review needed |
+
+### D14 — Integration-by-link principle (approved)
 1. The app **does not process bookings, payments or visa applications**; it links to official portals or designated providers.
 2. **Official first:** where a government/host portal exists (e-visa, official accommodation platform), link to it only.
 3. **Neutral listing rules:** commercial providers (hotels, ride apps, airlines, tours) listed by transparent criteria; sponsored placement labelled; the owner (government) approves the provider list. Avoids favouritism complaints in a government-adopted product.

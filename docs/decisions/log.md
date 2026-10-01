@@ -23,12 +23,13 @@
 | D12 | Persona priority tiers: Tier 1 P1 visitor, P2 local attendee, P3 journalist, P4 remote follower, P5 side-event organiser/exhibitor; Tier 1-ops P6 volunteer, P7 staff/admin; Tier 2 P8–P13; Tier 3 delegates/government reps (served via public layer). | Phase 6 desk research, benchmarks, D8 | Equal weight for all 15 | Focuses IA/MVP; BA validation pending | Approved by user 2026-10-01 |
 | D13 | At Phase 7/8, run a founder brainstorm on additional features (including founder's suggestions) and revisit features parked as 'possibly unnecessary' after user validation; **Claude must ask the founder at that point**. | Founder request 2026-10-01 | — | Scheduled agenda item | Decided |
 
-| D14 (PROPOSED) | Integration-by-link: no in-app bookings/payments/visa processing; link to official portals first, then neutral, owner-approved provider lists; no personal data to third parties by default. | Founder's all-in-one vision with link-outs; neutrality for a government-adopted app; scope control | Build bookings in-app; affiliate-first | Keeps scope feasible; Phase 13/17 inputs | Proposed |
-| D15 (PROPOSED) | Prioritisation method and releases: 8 weighted criteria, thresholds Must≥35, foundation overrides; releases Demo (Dec 2026) / Pilot (Jun 2027) / Event (Oct 2027) / Post-event. Fallback: raise Must to ≥37 if Phase 18 shows capacity shortfall. | Transparent, re-scorable (docs/product/mvp-scoring.py) | Arbitrary ranking; RICE | Defines MVP; 72 Musts flagged as capacity risk | Proposed |
+| D14 | Integration-by-link: no in-app bookings/payments/visa processing; link to official portals first, then neutral, owner-approved provider lists; no personal data to third parties by default. | Founder's all-in-one vision with link-outs; neutrality for a government-adopted app; scope control | Build bookings in-app; affiliate-first | Keeps scope feasible; Phase 13/17 inputs | Approved by user 2026-10-01 |
+| D15 | Prioritisation method and releases: 8 weighted criteria, thresholds Must≥35, foundation overrides; releases Demo (Dec 2026) / Pilot (Jun 2027) / Event (Oct 2027) / Post-event. Fallback: raise Must to ≥37 if Phase 18 shows capacity shortfall. | Transparent, re-scorable (docs/product/mvp-scoring.py) | Arbitrary ranking; RICE | Defines MVP; 73 Musts flagged as capacity risk | Approved by user 2026-10-01 |
+
+| D16 (PROPOSED) | Primary navigation = 5 items: Home, Programme, Map, Visit, More (Updates/Learn/Library/Archive/Me & Settings under More); notifications as global bell; event-state-aware, role-aware Home; Event is the root entity; link-out registry with interstitial. Networking removed from primary nav. | Phase 9 IA evaluation vs brief structure; D8, D12, D14, D15 | Brief's 16-item structure; separate delegate/public apps | Defines structure for Phase 10 flows and the demo | Proposed |
 
 ## Open questions
 - Government target (researched; hypothesis ranking in research/government-stakeholders.md; no contact yet)
-- Founder to complete idea F-08 (coffee culture sentence was cut off).
 - PPR terms: is 15% a total pool or per person? How is 'net profit' defined for grant income? Are IP-assignment agreements signed?
 - Zega Tech PLC registration status; team availability/paid or volunteer; funding runway.
 - Definition/metrics of 'recognized globally' and a go/no-go date.

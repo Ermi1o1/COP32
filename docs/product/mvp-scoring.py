@@ -142,7 +142,11 @@ F=[
 ("F-06a","Public transport routes & trip planner (open GTFS)",(3,3,3,2,2,2,2,3)),
 ("F-06b","Real-time transit tracker",(3,3,3,1,1,2,1,2)),
 ("F-07","Tourist attractions & must-visit places",(3,3,2,3,3,3,3,3)),
-("F-08","Coffee culture & ceremony",(2,3,2,3,3,3,3,3)),
+("F-08a","Coffee ceremony guide (content)",(2,3,2,3,3,3,3,3)),
+("F-08b","'Where to experience it' coffee trail (neutral listing)",(2,3,2,2,2,2,2,3)),
+("F-08c","Coffee passport (stamp rally)",(1,2,2,2,2,2,2,2)),
+("F-08d","Coffee & climate story",(2,3,3,2,2,2,3,3)),
+("F-08e","'Buna break' meet-ups",(2,2,2,2,2,1,2,2)),
 ("F-09","Light-rail digital ticket link",(2,2,2,3,3,2,2,3)),
 ("B-01","\"What's on near me now\" view",(2,3,3,2,2,3,2,3)),
 ("B-02","Amharic voice assistant",(2,2,2,1,1,1,3,2)),
@@ -157,7 +161,7 @@ F=[
 FOUND={"PER-01","PER-03","PER-04","TRU-01","TRU-02","TRU-03","TRU-04","TRU-06","TRU-07","ACC-01","ACC-02","ACC-03","NOT-03","NOT-06","ADM-01","ADM-02","ADM-03","ADM-09"}
 NR={"NET-06","EXH-07","B-02"}
 LATER_OVR={"NOT-08","ACC-06"}
-DEMO={"INF-01","INF-02","INF-03","INF-04","INF-09","INF-10","INF-12","PER-01","PER-03","PER-04","PER-05","PER-09","NAV-03","NAV-05","NAV-07","NAV-08","F-01","F-02","F-04","F-05","F-07","F-08","PUB-02","PUB-03","MED-05","ACC-03","TRU-01","TRU-04","DEM-01","DEM-02","DEM-03","ADM-01"}
+DEMO={"INF-01","INF-02","INF-03","INF-04","INF-09","INF-10","INF-12","PER-01","PER-03","PER-04","PER-05","PER-09","NAV-03","NAV-05","NAV-07","NAV-08","F-01","F-02","F-04","F-05","F-07","F-08a","PUB-02","PUB-03","MED-05","ACC-03","TRU-01","TRU-04","DEM-01","DEM-02","DEM-03","ADM-01"}
 EVENT={"NAV-01","NAV-02","NAV-09","MED-01","PUB-04","INF-07","NOT-01","MED-08","NAV-14"}
 POST={"PST-03","PST-04"}
 def cls(i,t):
