@@ -1,4 +1,5 @@
-# Phase 9 — Information Architecture (draft v1, 2026-10-01)
+# Phase 9 — Information Architecture (draft v2, 2026-10-01)
+> **v2 note:** navigation revised after a second pass — see "Second pass" at the end (D16 v2). Where sections 2–3 conflict with the second pass, the second pass wins.
 Inputs: feature prioritisation (Must/Should, D15), personas/journeys (D12), benchmarks, decisions D1–D15. No UI design here: this defines **structure, navigation, content relationships, search and taxonomy**. Screens/visual design come after Phase 10 flows (and the demo prototype, D10).
 
 ## 1. Is the brief's structure appropriate? (evaluation)
@@ -194,3 +195,59 @@ Central list of external destinations (official e-visa portal, airlines, accommo
 
 ## 12. Phase 10 preview
 User flows will use this structure for: onboarding; finding/saving a session; building an agenda; finding a speaker/exhibitor/venue; navigating to a session; receiving changes; live and recorded content; documents; public information; using the app after COP32; plus visit-planning flows (visa/hotel/ride link-outs).
+
+---
+# Second pass (2026-10-01) — design norms, comparable apps, cultural fit → revised navigation
+Requested by the founder before approving D16.
+
+## A. What we learned
+### A1. Platform norms (primary sources)
+| Source | Norm | Implication |
+|---|---|---|
+| Material Design 3 — navigation bar | 3–5 destinations, each icon + label, for top-level pages on mobile/tablet | 5 is the ceiling; labels mandatory |
+| Apple HIG — tab bars | 3–5 tabs on iPhone; a "More" tab "makes it harder for people to reach and notice content on tabs that are hidden" — avoid overflow where possible | **Our v1 put Updates and Learn behind "More" — fix** |
+| Event-app practice (EventPilot etc.) | Bottom tabs for schedule, speakers, maps, key info; overflow under "More" causes clutter/low discovery | Keep top tasks visible |
+
+### A2. Comparable apps
+| App | Pattern observed | Lesson |
+|---|---|---|
+| EXPO 2025 Visitors | Sections: pavilions, food & drink, shops, services/support (incl. nearby sightseeing & accommodation), map, events by date. **User reviews:** huge rotating banner on Home blocks quick access to QR/reservations; reservations hidden under "My Tickets" | Home must lead with *my* actionable items (next saved session, alerts), not promo banners; put things where users expect them |
+| Visit Dubai / Visit Qatar / Visit Saudi (official tourism apps) | Attractions, events calendar (Qatar has a home widget), itineraries (custom + AI recommendations), whole trip shown on a map, directions, offline access + transit tips (Dubai), **visa rules** (Saudi), booking of activities/restaurants (Dubai; Qatar via WhatsApp) | Validates the "Visit" section content; "trip on a map" and events calendar are strong patterns; bookings are linked out in our case (D14) |
+| Super apps (Grab, Gojek, WeChat) | 3–5 anchor tabs; everything else in a **service directory/grid** on Home; "start with one high-frequency service, expand gradually" | Visit = a **service grid** (Visa, Flights, Hotels, Rides, Transit, Attractions, Coffee, Safety…) rather than more tabs; don't launch with every service at once |
+| Telebirr super app (Ethiopia, 20+ mini-apps, EN/AM) | Reviews/critiques: complex navigation, cluttered screens, small fonts; **Ethiopian users prefer spacious, visually comfortable layouts** | Spacious layout, larger default text, fewer items per screen, clear labels — especially in Amharic |
+| Ethiopian usability research (Amharic mental-health app) | High satisfaction for an Amharic-first app | Amharic-first is viable and valued |
+| Ethiopian design guidance (practitioner) | Amharic-first, transliteration search, **expansion-safe layouts**, Ethiopian calendar | Already in D11/IA search; confirms calendar (ACC-04) as Should |
+
+### A3. Cultural & language norms (design implications, to validate)
+1. **Ge'ez script legibility:** Ethiopic glyphs are dense; set a larger default body size and line height for Amharic than for English, and test on low-end Android screens (exact values in UI phase).
+2. **Expansion-safe labels:** tab labels must fit in both EN and AM without truncation; avoid all-caps (not applicable to Ge'ez) and icon-only buttons.
+3. **Respectful tone & imagery:** official, warm, hospitable ("Welcome / እንኳን ደህና መጡ" style — final copy by native editors); cultural reviewer for imagery (coffee ceremony, religious sites, dress).
+4. **Familiar patterns:** Telebirr/super-app grid familiarity in Addis → a service grid feels natural; but keep it uncluttered.
+5. **Dates:** Gregorian + optional Ethiopian calendar; 12-hour local time-telling conventions in Ethiopia differ (Ethiopian time counts hours from dawn) — **risk of confusion**; show times in standard international format with clear AM/PM or 24h and the time zone; consider an explainer (verify with native speakers).
+6. **Trust cues:** source labels and official links matter more for a government-adopted app; avoid ad-like banners on Home.
+
+## B. Must-haves for navigation (derived)
+1. 5 labelled tabs max; **no "More" tab hiding priority content**.
+2. Home = *personal & time-critical first* (next saved session, live alerts, now/next), editorial second, no autoplay carousels at the top.
+3. Visit = **service grid** of link-outs and guides, each tile labelled in EN/AM.
+4. Global header: language switch, search, notifications bell, and a **menu/profile entry** for low-frequency items (Learn library, Archive, Settings, Help, About).
+5. Tab state preserved when switching; system back behaves predictably (Android back, iOS swipe).
+6. Same structure on web (top nav).
+7. Large touch targets, spacious layout, Amharic-aware typography.
+8. Every external link via the link-out interstitial (D14).
+
+## C. Revised primary navigation (D16 v2 — proposed)
+| Tab | Contains | Change from v1 |
+|---|---|---|
+| **Home** | Next saved session · priority alerts · now & next · role shortcuts · countdown/phase modules · highlights (news, explainers) | Personal items first (EXPO lesson) |
+| **Programme** | Schedule · side events · speakers · exhibitors & pavilions · **My agenda** | — |
+| **Map** | Venue & city maps · POIs · directions · accessibility · (later) my itinerary on map | — |
+| **Visit** | Service grid: Before you travel (visa → official portal, flights, insurance info) · Stay (hotels link-outs) · Getting around (airport, light rail, buses, ride-hailing) · Explore Addis (attractions, day trips) · Buna/coffee culture · Food · Money & SIM · Health & safety · Emergency | Service-grid form; label stays **"Visit"** — founder confirmed the tab targets visitors; local content lives in Home, Programme ("Open to public") and Updates |
+| **Updates** | News · alerts history · press centre · live & recorded · explainers · daily digest | **Promoted from "More"** (time-critical) |
+Header (all screens): ☰ menu/profile → **Learn** (COP explained, climate basics, Africa & Ethiopia, Green Legacy, glossary, myth-busting) · **Library** · **Archive** · **Me & Settings** · Help & FAQ · About; plus language, search, bell, time-zone chip.
+Learn content is also surfaced in Home highlights and as an "Explainers" filter in Updates, so it is not hidden.
+
+**Trade-off stated:** Learn loses a tab slot. Justification: Updates is time-critical during the event; Learn is evergreen and discoverable via Home/Updates/search. Revisit with pilot analytics.
+
+## D. What did not change
+Event-as-root content model, taxonomy, Ge'ez-aware search, link-out registry, offline tiers, role- and phase-aware Home, archive approach.
