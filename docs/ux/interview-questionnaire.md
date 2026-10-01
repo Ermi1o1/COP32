@@ -1,0 +1,59 @@
+# Quick interview questionnaire (for the BA) — submit anytime; does not block any phase
+Purpose: validate personas/journeys with 5–8 short interviews (15–25 min each; phone/video/in person). Priority respondents: (1) Addis residents (2) journalists (3) side-event/NGO organisers (4) volunteers or youth (5) any international visitor or climate professional you can reach. Aim for a mix of Amharic and English speakers.
+
+## Before you start (ethics)
+- Say who you are (Zega Tech), that this is research for a possible COP32 public-information app, that it is **not an official** COP32/UNFCCC/government product, and that participation is voluntary.
+- Ask consent to take notes (and recording only with explicit consent). Do not collect names/phone numbers unless the person agrees; use codes (R1, R2…).
+- Do not promise payment, access or jobs. Do not collect sensitive data (political views, ID numbers). Store notes in the team's shared drive, not personal devices.
+- They may skip any question or stop at any time.
+
+## Part A — Warm-up (all)  [3 min]
+1. Role, city/country, age band (optional), main language(s) for reading on a phone: Amharic / English / other?
+2. Phone: brand/model (or "don't know"), Android/iOS, typical data situation (wifi at home/work? monthly data?).
+3. What apps do you use most for news/events (e.g., Telegram, Facebook, YouTube, TikTok, WhatsApp, X, Google)?
+
+## Part B — COP32 awareness and needs (all)  [7 min]
+4. What have you heard about COP32 and where did you hear it?
+5. How would you like to take part, if at all (attend, watch, volunteer, report, present, none)?
+6. What do you most want to know about it? (open question; then probe: dates, where, public access, transport, hotels, safety, programme, outcomes)
+7. Which would be more useful to you: (a) a mobile app (b) a website (c) Telegram/social channel (d) SMS? Why?
+8. Would you install an app for a 2-week event? What would make you keep it afterwards?
+
+## Part C — Language, access and trust (all)  [5 min]
+9. In which language do you prefer information on COP32: Amharic, English, both? Any other language?
+10. Do you have difficulty reading small text, seeing colours, hearing audio, or using touch screens? What helps? (Do not require disclosure.)
+11. If an app were run by a private company (not the government), what would you need to trust it? What would make you not trust it?
+12. What would you be uncomfortable sharing with an app (location, phone number, email, ID)? Would you create an account?
+
+## Part D — Role-specific (pick the relevant block)
+**D1 Addis resident / local attendee (P2)**
+13. What would you want to do around COP32 in your city? What worries you (traffic, prices, crowds)?
+14. How do you usually find out about road closures or public events?
+15. Would audio (Amharic) or short videos help more than text?
+
+**D2 Journalist (P3)**
+16. How do you currently get official announcements and schedules? What fails?
+17. What do you need in a press kit and how fast? Which languages?
+18. How important is offline access or low-bandwidth mode at a venue?
+
+**D3 Side-event / NGO / exhibitor organiser (P5, P8)**
+19. How do you currently promote events and manage changes? What goes wrong?
+20. What information would you want to give and receive (audience, interest counts, attendance)?
+21. Who must approve your listings?
+
+**D4 Volunteer / youth (P6, P9)**
+22. What questions do you expect visitors to ask? What do you need in your pocket to answer them?
+23. How do you want to receive shift/task notices?
+
+**D5 International visitor / professional (P1, P11)**
+24. What are your biggest worries about attending in Addis (hotel, visa, transport, safety, internet)?
+25. What would you want in a pre-trip guide? Would you download it before travel?
+
+## Part E — Close  [2 min]
+26. If we could build only three things for COP32, what would you choose?
+27. Anything we haven't asked that matters? May we contact you again for testing? (yes/no; contact only if yes)
+
+## Recording template (one row per interview)
+| Code | Date | Role/persona | Language | Device/OS | Preferred channel | Top 3 needs | Trust conditions | Accessibility notes | Quote (anonymous) | Surprises |
+|---|---|---|---|---|---|---|---|---|---|---|
+Save to: docs/ux/interview-results/ (create) as CSV or markdown; **no personal identifiers**. The product owner/BA summarises key themes (top needs by persona, language/channel preference, trust conditions) into a one-page note; the next session will fold it into personas and Phase 7/8.
