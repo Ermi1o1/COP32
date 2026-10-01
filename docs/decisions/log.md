@@ -20,7 +20,7 @@
 
 | D11 | Bundle an Ethiopic font in the apps and web app, and make real-device Amharic testing (rendering, search, screen reader) a QA requirement. | Android OEM fonts may lack Ge'ez glyphs (tofu boxes) | Rely on system fonts | Small effort; avoids a visible failure in the demo | Approved by user 2026-10-01 |
 
-| D12 (PROPOSED) | Persona priority tiers: Tier 1 P1 visitor, P2 local attendee, P3 journalist, P4 remote follower, P5 side-event organiser/exhibitor; Tier 1-ops P6 volunteer, P7 staff/admin; Tier 2 P8–P13; Tier 3 delegates/government reps (served via public layer). | Phase 6 desk research, benchmarks, D8 | Equal weight for all 15 | Focuses IA/MVP; awaiting approval and BA validation | Proposed |
+| D12 | Persona priority tiers: Tier 1 P1 visitor, P2 local attendee, P3 journalist, P4 remote follower, P5 side-event organiser/exhibitor; Tier 1-ops P6 volunteer, P7 staff/admin; Tier 2 P8–P13; Tier 3 delegates/government reps (served via public layer). | Phase 6 desk research, benchmarks, D8 | Equal weight for all 15 | Focuses IA/MVP; BA validation pending | Approved by user 2026-10-01 |
 | D13 | At Phase 7/8, run a founder brainstorm on additional features (including founder's suggestions) and revisit features parked as 'possibly unnecessary' after user validation; **Claude must ask the founder at that point**. | Founder request 2026-10-01 | — | Scheduled agenda item | Decided |
 
 ## Open questions

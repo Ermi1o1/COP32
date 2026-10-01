@@ -7,6 +7,7 @@
 | 3 COP32 research | **Done — accepted by user 2026-10-01 (D9 finalized); re-run when official COP32 pages publish** |
 | 4 Benchmark research | Done (desk research); hands-on test plan issued to team |
 | 5 Gap analysis | Done — approved by user 2026-10-01 |
-| 6 Personas & journeys | **Draft v1 written (desk research) — awaiting user review; BA questionnaire issued (non-blocking)** |
-| 7+ | Not started |
+| 6 Personas & journeys | Done — approved 2026-10-01 (BA validation pending, non-blocking) |
+| 7 Feature catalog | **Brainstorm draft v1 written — awaiting founder ideas (D13) and review** |
+| 8+ | Not started |
 Next session: read docs/decisions/log.md, docs/research/cop32-context.md, docs/roadmap/phase-status.md.
