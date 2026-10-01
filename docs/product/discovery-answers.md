@@ -33,3 +33,10 @@
 
 ## Post-COP32 lifespan (research summary — see also below)
 Evidence is mixed: most event apps are retired; the ones that persist were re-purposed. See "Precedents" in docs/research/post-event-precedents.md.
+
+## Round 2 answers (2026-10-01)
+- **Q1 Government office:** unknown; founder asked Claude to research -> see docs/research/government-stakeholders.md. No contact yet.
+- **Q2 Company/team:** Zega Tech PLC registration in progress. Team are **volunteers**, to be paid later via a "PPR method" (term unclear — to ask), willing to work unpaid until launch.
+- **Q3 'Recognized globally':** built by Zega Tech, or in partnership with Zega Tech, and displayed/known globally like UNFCCC and related bodies. No go/no-go date; asked for explanation and recommendation.
+- **Q4 Event-agnostic core:** asked for explanation and recommendation.
+- Claude's flags: volunteers need written agreements (IP assignment, deferred pay terms) *before* building, or ownership disputes can block a government sale; clarify what 'government owns' means vs Zega Tech selling/licensing (assign IP, license, or service contract).
