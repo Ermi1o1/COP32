@@ -41,3 +41,38 @@ Exact dates and venue; accreditation/registration rules and opening date; side-e
 
 ## 7. Implications for the product (D, hypotheses)
 1. Public/observer/media/visitor majority justifies primary audience. 2. Accommodation, transport, safety and city guidance are likely high-value because capacity is tight. 3. Official dates/venue unknown -> content model must be update-friendly; no hard-coded schedule. 4. Pilot (mid-2027) should align with SB64 (June 2027) and accreditation opening — a natural test audience (F).
+
+---
+# Second pass (2026-10-01) — structure of a COP, participation routes, venue signal, Ethiopian context
+Legend as above. Sources in source-register.md.
+
+## 8. How people take part in a COP (UNFCCC practice; COP31/COP30/COP28 used as the pattern, COP32 rules F)
+| Route | How it works | Evidence | COP32 status |
+|---|---|---|---|
+| Parties, UN agencies, observer states | Nominated through the UNFCCC Online Registration System (ORS); badges free of charge. For COP31 the nomination window ran 20 Jul – 8 Nov 2026 | UNFCCC COP31 participant info (via search) | F (COP32 window unknown; by analogy opens ~4 months before) |
+| Observer organisations (NGOs, IGOs) | Must hold UNFCCC observer status; admitted organisations nominate delegates; lists published per COP | UNFCCC observer pages | F |
+| Media | Bona fide media with climate/international-affairs track record; registration via UNFCCC | UNFCCC (COP31 media registration) | F |
+| Public / non-accredited | **Green Zone**: at COP28 free day pass booked online (10:00–22:00, 300+ talks, exhibits); at COP30 free, open to all ages, no accreditation, capacity **7,500**, 09:00–19:00, high attendance prompted access reminders | The National, Gulf News, cop30.br | F — whether COP32 will have a public zone, capacity, and ticketing |
+| Remote | COP30 had online-participation badges (2,550 attended online; 5,141 registered online) with the official event platform | ENB/Carbon Brief | F |
+**D:** The Green Zone is the main public route in person, and its capacity/ticketing/queue information is a real information gap for non-accredited people. Whether the *host* (Ethiopia) runs the Green Zone would determine who owns that information — a likely entry point for a host-country app (as with COP28's host app).
+
+## 9. Constituencies and communities (UNFCCC practice)
+Nine recognised observer constituencies: BINGO (business), ENGO, Farmers, IPO, LGMA, RINGO (research), TUNGO, Women & Gender, YOUNGO (children/youth, up to 35, recognised 2009/2011). Each has focal points who coordinate access and messages. Presidency Youth Climate Champion exists (UNFCCC PYCC). **D:** these focal points are distribution channels and credibility partners for outreach and testing (not yet contacted). F: COP32 youth/civil-society programmes and the Youth Climate Champion appointment.
+
+## 10. Venue signal (upgrade from first pass)
+- The Second Africa Climate Summit (ACS2) took place 8–10 Sep 2025 at the **Addis International Convention Center**, convened by the AU and Ethiopia; thousands of delegates, 45+ heads of state; side/pre-summit events 5–7 Sep (AU press releases; Nature4Climate). So the centre is operational and has hosted a large climate event. **Still F for COP32**: no official COP32 venue statement; dedicated COP-scale additional space (pavilions, accommodation, transport) not announced.
+- **D (opportunity):** ACS2 is a ready-made proof point/test case — it ran with no publicly documented participant app (search found none). Useful for the pitch; verify.
+
+## 11. Government messaging so far
+- GCS (3–4 Aug 2026): COP32 National Steering Committee members, with PM Abiy Ahmed as COP32 chair, joined the Green Legacy "800 Million Trees in One Day" challenge; slogan "The road to #COP32 is rooted in action". No dates, venue, programme, accreditation or digital platform stated.
+- Press frames COP32 around Green Legacy (cumulative planting targets in the tens of billions of seedlings), 90%+ renewable power, Africa as solution-leader, over **60,000** delegates (one outlet) — adds a third attendance figure (C).
+- **D:** Strong public-engagement narrative (tree planting, youth, citizen participation) -> content that the public wants in app form: Green Legacy progress, local events, how to join.
+
+## 12. Ethiopian digital context (research/ethiopia-digital-landscape.md)
+Key conclusion: most Ethiopians are offline or on low-end phones; global audience is the connected one. See that file; implications flow into Phases 11 and 14.
+
+## 13. Still not found (updated)
+COP32 exact dates/venue confirmation; accreditation window; Green Zone concept; side-event/pavilion process; thematic days; accessibility/security plans; sustainability requirements; official digital/hybrid plan; host-country/UNFCCC agreement text; Presidency Youth Climate Champion for COP32; third-party/unofficial COP32 apps (none found).
+
+## 14. Attendance figures now on record
+50,000 (press) · 60,000+ (one outlet) · >80,000 (Addis Mayor, Jan 2026) · benchmarks: COP28 >80,000; COP30 42,618 in person. Treat 50k–80k as the planning range; ask Secretariat for official number.

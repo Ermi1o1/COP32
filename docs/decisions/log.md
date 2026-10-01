@@ -14,6 +14,8 @@
 
 | D8 | Delegates' negotiation workflows (delegation management, closed negotiation schedules, draft-text tracking, bilateral booking, badge-gated areas) are out of scope; delegates may use public features; integration/linking possible later; revisit in Phase 5. | Owned by UNFCCC platform, confidential data, duplication, security/legal risk, credibility | Build delegate tools | Narrows MVP; reduces risk | Decided 2026-10-01 |
 
+| D9 (PROPOSED) | Treat Ethiopian reach as multi-channel: web/PWA-first, lightweight, Amharic, offline-tolerant, with evaluation of Telegram/SMS channels; native apps later. Evaluate in Phases 8/11/14. | Phase 3 second pass: ~19% internet penetration; 30% rural internet-enabled phone ownership | Native-app-first | Shapes MVP/platform; Awaiting approval | Proposed |
+
 ## Open questions
 - Government target (researched; hypothesis ranking in research/government-stakeholders.md; no contact yet)
 - PPR terms: is 15% a total pool or per person? How is 'net profit' defined for grant income? Are IP-assignment agreements signed?
