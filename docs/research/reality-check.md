@@ -46,3 +46,21 @@ Treat this as **"UNFCCC provides a standard official platform"** (the middle sce
 1. **Proceed as complementary/unofficial platform** (recommended): public-facing, Ethiopia-local, Amharic, offline-first, post-event archive. Re-check quarterly.
 2. **Pursue partnership first**: approach the host Digital/ICT Task Force / MinT before investing; may turn this into an official extension. Higher upside, slower, dependent on access.
 3. **Pause/pivot** if you intended an *official* delegate-facing app — that niche is almost certainly taken.
+
+---
+## Re-check #1 — 2026-10-03 (early; scheduled re-check was 2027-01)
+**Method:** web search + page fetch. unfccc.int still not retrievable by the fetch tool, so UNFCCC-side claims remain unverified.
+
+**Verdict: unchanged.** No officially announced COP32 participant app, portal or digital platform found. D1 (complementary/unofficial) stands; no pivot trigger.
+
+| Check | Result |
+|---|---|
+| cop32ethiopia.org | Still "Site will be available soon" maintenance page with a login / lost-password UI; footer says "COP-32 Ethiopia 2026". No registration, dates or venue. Operator still unclear. |
+| cic-26.com | Still appears in results as a COP32 info site; official status still unverified. |
+| Dates / venue | Still "November 2027"; no exact dates; no confirmed venue (AICC and Millennium Hall mentioned only as typical venues, by secondary sources). |
+| Registration / accreditation | Nothing published. |
+| Digital, ICT & Utilities Task Force | No new announcements beyond the Apr 2026 Ethio Telecom statement (infrastructure and operations, not a participant app). |
+| Tenders | No COP32 app/digital-platform tender in aggregator results. eGP and PPPA still not searched directly, so absence is not proven. |
+| New context | Capital (2026-06-16): UAE/COP28 experience and companies such as Masdar and AMEA Power are cited as support for hosting; the article says nothing about a digital platform. Press-reported only. |
+
+**Open follow-ups:** fetch unfccc.int via an alternative route; search egp.gov.et directly; check official social accounts; next scheduled re-check 2027-01.

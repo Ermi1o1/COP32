@@ -100,4 +100,5 @@
 - R5: Ethiopian data-localisation requirement may constrain hosting (verify).
 - R3: Branding/impersonation risk of "unofficial" app (must not imply endorsement).
 ## Re-check schedule
+- Re-check #1 done 2026-10-03 (no change; see research/reality-check.md)
 - Quarterly re-check of official COP32 digital announcements (next: 2027-01).
