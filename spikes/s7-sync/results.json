@@ -1,0 +1,67 @@
+[
+ [
+  "fresh install uses snapshot",
+  true,
+  "4580 B transferred"
+ ],
+ [
+  "no-op sync only fetches manifest",
+  true,
+  "1412 B"
+ ],
+ [
+  "delta v5->v6",
+  true,
+  "2110 B transferred"
+ ],
+ [
+  "delta v3->v6",
+  true,
+  "3334 B transferred"
+ ],
+ [
+  "delta v1->v6",
+  true,
+  "4355 B transferred"
+ ],
+ [
+  "delta-applied state == fresh snapshot state",
+  true,
+  ""
+ ],
+ [
+  "interrupted download resumes (Range)",
+  true,
+  "mode=snapshot, interruptions=2, 4580 B"
+ ],
+ [
+  "corrupted file rejected",
+  true,
+  "delta-v4-v5.json.gz: checksum mismatch; local state untouched"
+ ],
+ [
+  "tampered manifest rejected",
+  true,
+  "manifest signature invalid"
+ ],
+ [
+  "manifest signed by unknown key rejected",
+  true,
+  "manifest signature invalid"
+ ],
+ [
+  "replayed older manifest rejected",
+  true,
+  "manifest older than local (rollback attack?)"
+ ],
+ [
+  "local rollback to previous state",
+  true,
+  ""
+ ],
+ [
+  "manifest GET throughput (python http.server, serial, localhost)",
+  true,
+  "1346 req/s; manifest 1412 B"
+ ]
+]

@@ -1,0 +1,54 @@
+{
+ "manifest": {
+  "schema": 1,
+  "version": 6,
+  "min_client_schema": 1,
+  "published": "2027-01-01T00:00:00Z",
+  "state_sha256": "7f28acac36e56f4d291fe70c9192107d42c5734b88b4a6ed03be31f07a16d26b",
+  "files": {
+   "snapshot-v6.json.gz": {
+    "sha256": "c56d9daffb5263f33660fc43c4d20845b480175d710835f033c249011aba94a3",
+    "size": 3168,
+    "kind": "snapshot",
+    "to": 6
+   },
+   "delta-v1-v2.json.gz": {
+    "sha256": "6847492004d6da9db85dcf2bbd3f14d770384ec6cd5cc3214862307eeb27e5e5",
+    "size": 468,
+    "kind": "delta",
+    "frm": 1,
+    "to": 2
+   },
+   "delta-v2-v3.json.gz": {
+    "sha256": "c4838fc9522f3a4d95de3ee124e68585e43b6000590e1b037f285ce92c9b5730",
+    "size": 553,
+    "kind": "delta",
+    "frm": 2,
+    "to": 3
+   },
+   "delta-v3-v4.json.gz": {
+    "sha256": "927c3b539715f2305f631085d66842c7b05bf18db600c0552c3a26b58055a8f1",
+    "size": 561,
+    "kind": "delta",
+    "frm": 3,
+    "to": 4
+   },
+   "delta-v4-v5.json.gz": {
+    "sha256": "14c691c7fc160e0a080f3344fe95dae710bd9fbef0e640beafcd2494b0cd801f",
+    "size": 663,
+    "kind": "delta",
+    "frm": 4,
+    "to": 5
+   },
+   "delta-v5-v6.json.gz": {
+    "sha256": "4f0786a79ab52b4a8400387362fed3faa7379560358fb334547c3342363561fc",
+    "size": 698,
+    "kind": "delta",
+    "frm": 5,
+    "to": 6
+   }
+  }
+ },
+ "signature": "25DjOCRiDgqhLO1gvasOCa+m/2HbjxoU+oyZ9RWt1HnF2uPXZTkAwCKfm2KznbLvWBbKPL63E4fguWWMSDCXBw==",
+ "key_id": "k1"
+}
