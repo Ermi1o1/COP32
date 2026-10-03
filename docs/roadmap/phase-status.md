@@ -25,6 +25,9 @@
 | 20 Final product blueprint | Done — D43 approved 2026-10-03 | product/final-blueprint.md |
 | 21 Stage 2 execution: IA heuristic validation, spikes, design system, clickable prototype, ADRs, dossier | **Done 2026-10-03 on heuristic/sandbox basis — real validation still pending** (D44–D52) | roadmap/stage2-execution-prompt.md; ux/ia-validation-results/; architecture/spike-results/, architecture/adr/; design/; prototype/; deliverables/COP32-Platform-Proposal-v1.docx |
 
+## Track D v2 — visual redesign (2026-10-03)
+**Done.** Direction "Highland Mist" chosen after four founder review rounds (D53; `docs/design/redesign-directions/`). Design system v0.2 + `tokens.json` updated; plan in `docs/design/redesign-plan.md`; every prototype screen rebuilt (5 batches); screenshots refreshed in `docs/design/prototype-screens/` (20). Checks: tokens 64/64 AA, axe-core 0 violations (16 screens × light/dark), 200% reflow without horizontal scroll, EN/AM and light/dark parity, tree-test T1–T12 all resolve. Private phone-viewable copy: https://claude.ai/artifact/X4MMCwgpeHVfpBCpLDh3wh (entry page `prototype/artifact-entry.html`). The GitHub Pages redeploy runs once this branch is merged to `main`.
+
 ## Where the project stands in practice
 - Phase 21 is complete on a heuristic/sandbox basis (see table). Real card sort/tree test, real-device spikes (S1, S6), provider outreach (S5), native-speaker Amharic review and user testing remain open.
 - Planning documentation is complete through Phase 20 (blueprint approved, D43). Phase 21 ("Stage 2 execution") is defined and ready to run: `docs/roadmap/stage2-execution-prompt.md` is the operating prompt for it — paste it into a fresh Claude Code session (after `/clear`) to execute Tracks A–F (IA heuristic walkthrough, spikes S1–S7 sandbox proofs, design system, clickable prototype, architecture ADRs, external .docx dossier).
@@ -34,4 +37,4 @@
 ## Decisions awaiting approval
 D44–D52 recorded in the log with qualified status (heuristic/sandbox basis; provisional). Founder to confirm or amend.
 ## Next session should read first
-docs/decisions/log.md (D44–D52), docs/roadmap/phase-status.md, docs/architecture/adr/README.md, docs/design/design-system.md, prototype/README.md, then docs/product/final-blueprint.md. Phase 22 (native build) is blocked on prototype review + a real-device S1 decision.
+docs/decisions/log.md (D44–D53), docs/roadmap/phase-status.md, docs/design/redesign-plan.md, docs/architecture/adr/README.md, docs/design/design-system.md, prototype/README.md, then docs/product/final-blueprint.md. Phase 22 (native build) is blocked on prototype review + a real-device S1 decision.

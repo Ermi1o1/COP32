@@ -2,8 +2,11 @@
 
 > **PROTOTYPE — sample data, not an official COP32 product.** Independent, unofficial concept (D1, D3). All content is synthetic; Amharic text is machine-drafted and **not reviewed by a native speaker**. This is not the production app and does not depend on the mobile-framework decision (S1).
 
+## Visual design (Track D v2, D53)
+"Highland Mist": misty teal tint, lime for the one primary action, grouped inset lists, large collapsing titles, translucent bars, true dark mode (Apple HIG principles). Fonts: Atkinson Hyperlegible Next (Latin, 34 KB) + Noto Sans Ethiopic (bundled). Icons: Lucide subset (`icons.js`, ISC). Avatars: faceless illustrated SVG. The ☰ menu is now the **profile button** next to the language switch; it opens Profile & Settings (`#/menu`) with Learn, Library, Archive, Help and About. See `docs/design/design-system.md` and `docs/design/redesign-plan.md`.
+
 ## What it shows
-- The approved IA (D16 v2): 5 tabs — Home, Programme, Map, Visit, Updates — plus a header menu (Learn, Library, Archive, Settings, Help, About), search, alerts bell, language switch.
+- The approved IA (D16 v2): 5 tabs — Today (Home), Programme, Map, Visit, Updates — plus header actions: alerts, language switch, and the profile button (Profile & Settings with Learn, Library, Archive, Help, About). Search sits on Today and in Programme/Updates.
 - EN / አማ switch with the bundled Ethiopic font (Noto Sans Ethiopic, OFL, subset ≈100 KB woff2). Strings without an Amharic draft fall back to **visible** English (marked "EN"), as the IA requires.
 - Design tokens from `docs/design/tokens.json` (light/dark, 200% text size, reduce motion).
 - Sample dataset: 50 sessions, 20 speakers, 30 POIs, 10 articles, 5 alerts, plus sample news, guides, glossary, library.
@@ -20,10 +23,10 @@ python3 -m http.server 8000      # then open http://localhost:8000
 (Opening `index.html` directly also works in most browsers.) Phone: open the same address from a phone on the same Wi-Fi, e.g. `http://<computer-ip>:8000`.
 
 ## Rebuild generated files
-`python3 build.py` regenerates `tokens.css` (from the design tokens) and `data.js` (sample data from `spikes/data/sample.json`).
+`python3 build.py` regenerates `tokens.css` (from the design tokens) and `data.js` (sample data from `spikes/data/sample.json`, with fictional titles, people and places layered on top). Regenerate tokens first with `python3 docs/design/build_tokens.py` (run inside `docs/design`).
 
 ## Share a link (free)
 The repository includes `.github/workflows/pages.yml`. **You (the repo owner) must enable it yourself:** GitHub → Settings → Pages → Source: *GitHub Actions*; the workflow runs when `prototype/` changes on `main` (or via *Run workflow*). This session cannot change repository settings. Alternative: drag the `prototype` folder to any static host.
 
 ## Not done / needs real validation
-Real users, real devices, screen-reader testing, native-speaker Amharic, real COP32 content (none officially exists), accessibility audit of this build (only computed colour contrast and a 200% reflow check by screenshot).
+Real users, real devices, screen-reader testing, native-speaker Amharic, real COP32 content (none officially exists), full accessibility audit of this build. Done so far: computed token contrast (64 pairs, all AA), automated axe-core WCAG 2.2 A/AA scan of 16 screens × light/dark (0 violations), 200% reflow check, and all 12 tree-test tasks resolving in app mode.
