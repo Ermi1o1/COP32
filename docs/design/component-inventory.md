@@ -1,4 +1,5 @@
-# Component Inventory v0.1 (Track C)
+# Component Inventory v0.2 (Track C, restyled in Track D v2)
+> **v0.2 note (2026-10-03, D53):** components are unchanged in scope; their visual treatment follows the Highland Mist design system v0.2 (`design-system.md`). The main changes: A2 header = translucent nav bar with back/wordmark, alerts, language and **profile** buttons. A4 header menu ☰ → **Profile & Settings sheet** (`#/menu`; same items plus profile and optional sign in/out). B1 session card → **grouped session row** (time column, title, room · access, save star). B4 filter chips → capsules plus an iOS-style segmented control for sections and days. Large collapsing titles on every root screen. One grouped inset list component (`.group`/`.row`) replaces most cards.
 Status: proposed 2026-10-03. Derived from `docs/ux/information-architecture.md` (D16 v2), `docs/ux/user-flows.md` (F1–F16, V1–V7) and personas P1–P7. Tokens: `tokens.json`.
 
 **Standard states** (every interactive component unless noted): default · hover (web/pointer) · focus (3 px ring) · pressed · disabled · loading · error. Data components add: empty · offline/stale · TBC. All components: EN/AM text expansion-safe (≥ 40 % growth), 200 % text scale, light/dark, RTL-ready, accessible name/role/state.
