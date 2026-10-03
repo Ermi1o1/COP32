@@ -64,6 +64,8 @@
 | D42 | Governance model, decision rights, RACI and event-time roster positions; roster arithmetic computed in R10. | Roadmap; admin platform ops model | Ad hoc | Operations readiness | Approved by user 2026-10-03 |
 
 | D43 | Adopt docs/product/final-blueprint.md (v1.0) as the consolidated baseline; re-baseline at each gate G1–G5 and on trigger events. | Brief Phase 20 | Keep only per-phase files | Single entry point for funders, partners, new contributors | Approved by user 2026-10-03 |
+| D44 | Add baseline IA cross-links (Home/Visit/Programme for "Can I attend?"; Map↔Visit for hospitals and directions; Emergency shortcut on Home + header; alert items shared across Home/Updates/My agenda) and make the Glossary reachable from Updates → Explainers, session pages and search, not only Menu → Learn. | Heuristic walkthrough predicts T9 (glossary) and T2 as the weakest tree-test tasks; cross-links are cheap and low-regret. See ux/ia-validation-results/heuristic-walkthrough.md | Restructuring tabs; relabelling on analyst opinion | Prototype (Track D) builds these links | Approved — heuristic basis; confirm with real testing |
+| D45 | Reword IA-kit card #40 ("Volunteer help" is ambiguous) and make task T2 neutral (no "badge" jargon) before the real card sort/tree test. Keep tab labels Visit/Updates/Programme unchanged; add alternatives to the optional label test. Amharic labels remain unverified. | Heuristic walkthrough §3, §5 | Change labels now | Kit edit only; no structural change | Approved — heuristic basis; confirm with real testing |
 
 ## Open questions
 ### Host/government-only questions (added 2026-10-03; to ask via Secretariat and Digital Task Force; see outreach pack)
