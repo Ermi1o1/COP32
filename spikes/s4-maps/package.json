@@ -1,0 +1,1 @@
+{"name":"s4-maps","private":true,"dependencies":{"maplibre-gl":"*","pmtiles":"*","esbuild":"*"},"scripts":{"build":"esbuild main.js --bundle --minify --outfile=bundle.js --loader:.json=json"}}
