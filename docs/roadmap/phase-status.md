@@ -23,14 +23,15 @@
 | 18 Development roadmap | Done — D38, D39 approved 2026-10-03 | roadmap/development-roadmap.md | roadmap/development-roadmap.md |
 | 19 Project team | Done — D40–D42 approved 2026-10-03 | roadmap/team-requirements.md |
 | 20 Final product blueprint | Done — D43 approved 2026-10-03 | product/final-blueprint.md |
-| 21 Stage 2 execution: IA heuristic validation, spikes, design system, clickable prototype, ADRs, dossier | **In progress (2026-10-03): Track A done (heuristic basis, D44–D45); Track B done (sandbox/desk basis, D46–D50; S1/S5/S6 undecided). Tracks C–F not started.** | roadmap/stage2-execution-prompt.md |
+| 21 Stage 2 execution: IA heuristic validation, spikes, design system, clickable prototype, ADRs, dossier | **Done 2026-10-03 on heuristic/sandbox basis — real validation still pending** (D44–D52) | roadmap/stage2-execution-prompt.md; ux/ia-validation-results/; architecture/spike-results/, architecture/adr/; design/; prototype/; deliverables/COP32-Platform-Proposal-v1.docx |
 
 ## Where the project stands in practice
+- Phase 21 is complete on a heuristic/sandbox basis (see table). Real card sort/tree test, real-device spikes (S1, S6), provider outreach (S5), native-speaker Amharic review and user testing remain open.
 - Planning documentation is complete through Phase 20 (blueprint approved, D43). Phase 21 ("Stage 2 execution") is defined and ready to run: `docs/roadmap/stage2-execution-prompt.md` is the operating prompt for it — paste it into a fresh Claude Code session (after `/clear`) to execute Tracks A–F (IA heuristic walkthrough, spikes S1–S7 sandbox proofs, design system, clickable prototype, architecture ADRs, external .docx dossier).
 - **Not started yet (execution):** legal set-up (company registration, IP assignments, PPR agreement), outreach (letters drafted, not sent), Phase 21 tracks A–F, and — deferred until after Phase 21 — the real native-app build (Phase 22+).
 - **Important scope note for Phase 21:** nothing in it substitutes for real-user IA testing or real-device/real-provider spikes (`docs/ux/ia-validation-kit.md`, `docs/architecture/spike-briefs.md`). It produces heuristic/sandbox evidence only, clearly labeled, plus a tangible clickable prototype and a sendable proposal dossier — real validation stays a tracked open item.
 - **Next gate:** G1 on 31 Dec 2026 (see roadmap).
 ## Decisions awaiting approval
-None. All decisions D1–D43 approved. Phase 21 may add D44+ (heuristic/sandbox-basis decisions, qualified as provisional until real-world confirmed).
+D44–D52 recorded in the log with qualified status (heuristic/sandbox basis; provisional). Founder to confirm or amend.
 ## Next session should read first
-docs/decisions/log.md, docs/product/final-blueprint.md, docs/roadmap/phase-status.md, docs/roadmap/stage2-execution-prompt.md.
+docs/decisions/log.md (D44–D52), docs/roadmap/phase-status.md, docs/architecture/adr/README.md, docs/design/design-system.md, prototype/README.md, then docs/product/final-blueprint.md. Phase 22 (native build) is blocked on prototype review + a real-device S1 decision.

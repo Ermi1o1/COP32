@@ -74,3 +74,4 @@ table{border-collapse:collapse;width:100%;font-size:.875rem} th,td{border-bottom
 .big .app{display:flex}
 .big header.top{order:1}.big .strip{order:2}.big nav.tabs{order:3}.big .taskbar{order:4}.big main{order:5}.big .watermark{order:6}
 .chip{text-decoration:none}
+.tag svg,.chip svg,.btn svg{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
