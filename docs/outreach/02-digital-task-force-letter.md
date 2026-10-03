@@ -18,6 +18,13 @@ We were encouraged by the Task Force's stated commitment to reliable, resilient 
 4. **Data and integration:** we propose simple, open, documented interfaces (for programme and alerts) and can work from spreadsheets. We would like to know whether the Task Force has, or plans, a programme-data service, an alert channel or a host-country application.
 5. **Emergency communications:** a pathway for authorised safety alerts to appear in the platform, with signing and dual approval, if the Task Force considers this useful.
 
+**Questions on operations and access (to align with the Task Force's arrangements)**
+- Will the Government provide an identity service (single sign-on) for staff accounts, or should the platform operate its own with multi-factor authentication?
+- Who should hold the cryptographic keys used to sign official content and alerts, and where should they be hosted?
+- Who will liaise with the digital operations team 24/7 during the event for alert authorisation and incidents, and which operations-centre tools should we connect to?
+- Which language(s) should the administration interface offer to Government staff, and what training/certification do you expect for staff using it?
+- Is a public status page expected?
+
 **What we would like**
 - A technical meeting (45 minutes) with the Task Force's focal point.
 - Names of the right contacts for hosting/security, data/integration and communications.

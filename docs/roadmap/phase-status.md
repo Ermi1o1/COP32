@@ -17,6 +17,7 @@
 | 13 Security, privacy & governance | Done — D21–D23 approved 2026-10-03 |
 | 14 Accessibility & localisation | Done — D25–D27 approved 2026-10-03 (D27 amended: Android/iOS parity); questionnaire updated |
 | 15 Content & editorial system | Done — D28–D30 approved 2026-10-03 |
-| 16 Admin & operations platform | **Draft v1 written — awaiting founder review (D31–D33 proposed)** |
-| 17+ | Not started |
+| 16 Admin & operations platform | Done — D31–D33 approved 2026-10-03; host-only questions added to decision log and Task Force letter |
+| 17 Business & sustainability model | **Draft v1 written — awaiting founder review (D34–D37 proposed)** |
+| 18+ | Not started |
 Next session: read docs/decisions/log.md, docs/research/cop32-context.md, docs/roadmap/phase-status.md.

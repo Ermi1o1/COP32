@@ -47,11 +47,26 @@
 | D29 | Four publishing tracks (Standard, Fast, Emergency/alerts, Organiser), separation of duties, publish quality gate, editorial standards incl. corrections policy; alerts: 'relay, not originate'. | Safety, accuracy, neutrality, legal exposure | Single generic workflow | Workflow configuration and staffing roles | Approved by user 2026-10-03 |
 | D30 | Alert protocol with CAP-aligned fields, authorised-source matrix, EN/AM templates, dual approval, drills; geographic targeting on-device only (D21). | OASIS CAP; safety; privacy | Ad hoc alerts | Needs agreement with host authorities | Approved by user 2026-10-03; alert-authorisation questions added to Secretariat request (Annex A), short request H and BA questionnaire Part G |
 
-| D31 (PROPOSED) | Back-office console set C1–C14, role model with scoped roles and separation-of-duties constraints (SD1–SD10), just-in-time privileged access and hardware keys for SA/TA/ALR/ALA. | NIST RBAC; D22; editorial system | Single super-admin model | Admin platform scope and security | Proposed |
-| D32 (PROPOSED) | Event-time digital operations cell (ICS-inspired functions), kill switches, runbook set, rehearsals before pilot and event. | Large-event operations practice; safety | Ad hoc operations | Operations readiness gates | Proposed |
-| D33 (PROPOSED) | Aggregate-only analytics (thresholds, no individual views); admin feature release plan (Demo/Pilot/Event/Post/Later). | D21; D15 | Detailed user analytics | Analytics design | Proposed |
+| D31 | Back-office console set C1–C14, role model with scoped roles and separation-of-duties constraints (SD1–SD10), just-in-time privileged access and hardware keys for SA/TA/ALR/ALA. | NIST RBAC; D22; editorial system | Single super-admin model | Admin platform scope and security | Approved by user 2026-10-03 |
+| D32 | Event-time digital operations cell (ICS-inspired functions), kill switches, runbook set, rehearsals before pilot and event. | Large-event operations practice; safety | Ad hoc operations | Operations readiness gates | Approved by user 2026-10-03 |
+| D33 | Aggregate-only analytics (thresholds, no individual views); admin feature release plan (Demo/Pilot/Event/Post/Later). | D21; D15 | Detailed user analytics | Analytics design | Approved by user 2026-10-03 |
+
+| D34 (PROPOSED) | Revenue model: primary = government/host service contract (M1), donor/grant-funded government-owned public good (M2), licence/sale to government (M5), post-event managed-service retainer (M11); secondary = white-label/PaaS for other events (M4) and in-kind partnerships (M12); conditional = screened sponsorship (M3) and startup-fund bridge (M13); red lines: affiliate, paid listings, data sales, advertising, paid visitor features. | Phase 17 scoring and neutrality principles | Ads/affiliate-driven model | Funding strategy and gate plan | Proposed |
+| D35 (PROPOSED) | Make platform DPG-ready; decide ownership/licence (split ownership vs open-source) by gate G2; written IP assignment from all contributors before further work. | DPG standard; donor expectations; government ownership intent | Decide at launch | Contracts, repository licensing, funder eligibility | Proposed — founder decision on B vs C needed |
+| D36 (PROPOSED) | Sponsorship and independence policy with screening red lines, caps, no sponsored safety content, public disclosure. | COP sponsorship controversies | Open sponsorship | Credibility protection | Proposed |
+| D37 (PROPOSED) | PPR framework to be defined in writing with counsel (pool vs per-person, profit definition, grant exclusions, timing, exit); consider hybrid/milestone structures. | D7; grant restrictions; IP | Informal PPR | Team agreements | Proposed |
 
 ## Open questions
+### Host/government-only questions (added 2026-10-03; to ask via Secretariat and Digital Task Force; see outreach pack)
+- Who staffs **24/7 alert authorisation** (bodies, named liaison, contacts, verification method)?
+- Will the government provide its **own identity provider (SSO)** for staff accounts, or should the platform run its own?
+- Who **holds the signing keys** for content manifests and alerts, and where (HSM or managed key service in Ethiopia)?
+- Who are the **Event administrator and Super admin** after handover?
+- Does the host expect integration with its **operations-centre tools** (chat, ticketing)?
+- Language of the admin UI for government staff (EN only vs EN/AM)?
+- How will staff **training and certification** be delivered and recorded?
+- Is a **public status page** required?
+### Other open questions
 - Government target (researched; hypothesis ranking in research/government-stakeholders.md; no contact yet)
 - PPR terms: is 15% a total pool or per person? How is 'net profit' defined for grant income? Are IP-assignment agreements signed?
 - Zega Tech PLC registration status; team availability/paid or volunteer; funding runway.
