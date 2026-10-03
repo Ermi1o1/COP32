@@ -82,3 +82,11 @@
 | FCM vs OneSignal; HMS support | OneSignal docs; EngageLab | 2026 | Push | https://onesignal.com/blog/firebase-vs-onesignal/ | Low-Medium (vendor) | FCM needs Google Play Services; HMS for Huawei |
 | OSM Addis Ababa; Google Maps outdated in Addis | OSM wiki; The Reporter Ethiopia | n.d. | Maps | https://wiki.openstreetmap.org/wiki/Addis_Ababa | Medium | ~3,000 streets mapped (552 named); Google data reported outdated |
 | Headless CMS comparisons (Payload/Strapi/Directus) | Industry blogs | 2026 | CMS | https://techsy.io/en/blog/best-headless-cms-2026 | Low-Medium | Feature sets; licences to verify |
+| COP 30 / COP 29 schedule pages and daily programme | UNFCCC | 2024–25 | Programme data access | https://unfccc.int/cop29/daily-programme | High | Web/PDF schedules; updates lag; no API found |
+| Ethiopian Airlines NDC / affiliate programme | Ethiopian Airlines corporate | 2023–24 | Flight booking | https://corporate.ethiopianairlines.com/ethiopian-affiliate-program | Medium-High | NDC API for partners; CJ affiliate programme (commission figures from third-party pages: unverified) |
+| Yango ride request widget documentation | Yango | n.d. | Ride-hailing integration | https://yango.com/en_int/partner-program/documentation/ | Medium-High (vendor) | Deep link with start/end coordinates and ref |
+| Feres / Ride apps | App stores | 2026 | Ride-hailing | https://apps.apple.com/us/app/feres/id1477739364 | Medium | No public deep-link docs found |
+| UN Web TV | United Nations | n.d. | Streaming | https://webtv.un.org/en | High | Public live and on-demand UN meetings; embed terms unknown |
+| Open-Meteo terms | Open-Meteo | 2026 | Weather API | https://open-meteo.com/en/terms | High (vendor) | Free API non-commercial only; CC-BY 4.0 |
+| NBE exchange rates via third parties | Frankfurter; AllRates | 2026 | FX data | https://frankfurter.dev/providers/nbe/ | Low-Medium (unofficial mirrors) | No official API verified |
+| Ethio Telecom developer portal | Ethio Telecom | 2026 | Telebirr/payments APIs | https://developer.ethiotelecom.et/user/product | Medium-High | Payment/mini-app APIs; not needed for link-outs |

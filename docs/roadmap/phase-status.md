@@ -12,6 +12,7 @@
 | 8 MVP prioritisation | Done — approved 2026-10-01 (D14, D15) |
 | 9 Information architecture | Done — D16 v2 approved 2026-10-01; BA validation kit issued (non-blocking) |
 | 10 User flows | Done — approved 2026-10-01 |
-| 11 Technical architecture | **Draft v1 written — awaiting founder review (D17, D18 proposed)** |
-| 12+ | Not started |
+| 11 Technical architecture | Done — D17, D18 approved 2026-10-03; spike briefs issued |
+| 12 Data & integration strategy | **Draft v1 written — awaiting founder review (D19, D20 proposed)** |
+| 13+ | Not started |
 Next session: read docs/decisions/log.md, docs/research/cop32-context.md, docs/roadmap/phase-status.md.
