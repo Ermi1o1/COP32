@@ -187,6 +187,16 @@ Caveat: ratios are computed values; they guarantee the colours, not legibility o
 ## 8. Platform notes
 Android (Material 3 navigation bar, back gesture) and iOS (tab bar, swipe-back) follow native navigation conventions with these shared tokens; implementation in whichever framework S1 selects. Tokens are exported as JSON so Android/iOS/web codebases generate platform constants from one file instead of hand-copying.
 
+## 8a. v0.3 visual layer (D54, 2026-10-03)
+Founder feedback: v0.2 read as too text-based. v0.3 keeps the tokens, palette and IA, and makes content visual:
+- **Illustrated covers:** original SVG scenes, one per theme (water waves, forest, sun and solar panels, skyline, fields, terraces, rising bars, pulse line, books, shapes for youth), drawn on fixed two-colour gradients so they read in light and dark. No photos and no logos. Covers appear on session cards, visit guides, news, explainers, exhibitors, live streams and detail headers.
+- **Cards and blocks first:** session cards (cover, time badge, "Open to public" badge, floating save star), image tiles with a readable dark scrim for Visit and exhibitors, news cards, people cards with large avatars, quick-action blocks (4 big icon tiles), a day picker made of date blocks, a fact-tile row on detail pages, and live cards with a large play button.
+- **Shelves:** horizontal, swipeable card rows with scroll-snap on Today (Up next, Explore Addis, Featured voices) and Map (Nearby places).
+- **Simple buttons:** one lime primary action per screen (48px high, pill), tinted and plain secondary buttons, and round icon buttons.
+- **Interaction:** a fade-and-rise page entrance (320ms), spring press on cards and tiles (scale .97), a star "pop" when saving (saved in place, so the scroll position is kept), and a POI sheet that slides in. Everything is removed under reduce-motion.
+- **Lists stay where lists are best:** Settings, glossary, library, alerts and search results keep the grouped-list style.
+- At 200% text, shelves and grids become a single column and covers get fixed heights.
+
 ## 9. How the prototype (Track D v2) uses this
 `prototype/build.py` generates CSS custom properties from `tokens.json`; `prototype/styles.css` implements the components (`.group`/`.row` grouped list, `.lt` large title, `.nav` translucent bar, `.segc` segmented control, `.cap` capsules, `.notice`, `.pill`, `.tile`, `.hero`, `.switch`). The prototype is the first consumer and therefore the first test of the spec. Header change (D53): the ☰ menu became a **profile button** next to the language switch that opens Profile & Settings (`#/menu`), which also holds Learn, Library, Archive, Help and About. The routes are unchanged.
 
