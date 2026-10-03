@@ -204,6 +204,13 @@ Every content card carries an invented person in a themed scene (`prototype/peop
 - **Rules:** every person is invented and labelled sample/fictional; the cast is diverse in gender, age and origin, with Ethiopian dress shown respectfully. No photos, no likeness of real people, no logos.
 - **Photoreal option (not done):** AI-generated photoreal personas were requested. No image-generation service was available in this session (the Replicate connector failed and Figma Weave was not linked). If that is enabled later, any generated people must still be clearly marked as fictional.
 
+## 8c. Real photos (D57, 2026-10-03)
+Founder asked for real, event-like pictures instead of illustrations. Cards, features, live cards, detail headers and the Today hero now use **46 openly licensed photos** (CC BY, CC BY-SA, CC0) from Wikimedia Commons, found through Openverse. They show conference halls, plenaries and workshops, Addis Ababa (skyline, light rail, streets, Entoto), coffee ceremony, injera, Bole airport, solar, geothermal and wind power, terraces, teff, rivers, drought, youth climate action, health and classrooms. Each is cropped to 800×500 WebP (≈48 KB) and lazy-loaded.
+- **Honesty rules:** photos show real places and generic events, never COP32 itself. No logos or brand liveries, no close-up portraits, and no real public figures. Real photos are **never** paired with invented speaker names; speaker avatars stay illustrated (D56).
+- **Attribution:** `#/menu/credits` (Profile & Settings → Photo credits) lists title, author, licence and source link for every photo, and notes that they were cropped and resized. Data is in `prototype/credits.js`.
+- **Data saver:** with Data saver on, cards fall back to the lightweight illustrations (no photo downloads).
+- **Offline:** photos are cached by the service worker as they are viewed.
+
 ## 9. How the prototype (Track D v2) uses this
 `prototype/build.py` generates CSS custom properties from `tokens.json`; `prototype/styles.css` implements the components (`.group`/`.row` grouped list, `.lt` large title, `.nav` translucent bar, `.segc` segmented control, `.cap` capsules, `.notice`, `.pill`, `.tile`, `.hero`, `.switch`). The prototype is the first consumer and therefore the first test of the spec. Header change (D53): the ☰ menu became a **profile button** next to the language switch that opens Profile & Settings (`#/menu`), which also holds Learn, Library, Archive, Help and About. The routes are unchanged.
 
