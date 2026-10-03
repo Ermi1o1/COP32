@@ -5,6 +5,16 @@
 ## Visual design (Track D v2, D53)
 "Highland Mist": misty teal tint, lime for the one primary action, grouped inset lists, large collapsing titles, translucent bars, true dark mode (Apple HIG principles). Light mode is the default; turn on Dark mode from the profile button → Preferences, or choose Light / Dark / Match phone in Settings. Fonts: Atkinson Hyperlegible Next (Latin, 34 KB) + Noto Sans Ethiopic (bundled). Icons: Lucide subset (`icons.js`, ISC). Avatars: faceless illustrated SVG. The ☰ menu is now the **profile button** next to the language switch; it opens Profile & Settings (`#/menu`) with Learn, Library, Archive, Help and About. See `docs/design/design-system.md` and `docs/design/redesign-plan.md`.
 
+## Install as an app (PWA)
+The prototype is a Progressive Web App (D55): `manifest.webmanifest`, icons in `icons/`, and a service worker (`sw.js`) that precaches the app shell so it opens and works offline after the first visit.
+- **Android / Chrome:** an "Install the app" card appears on Today and in Profile & Settings; or use the browser menu → *Install app*.
+- **iPhone / Safari:** Share → *Add to Home Screen* (the card shows this hint on iOS).
+- **Releasing a change:** bump `VERSION` in `sw.js`. Installed copies then show a "New version ready · Refresh" bar.
+- The service worker only runs over HTTPS (GitHub Pages) or `localhost`.
+
+## Personas and images
+Cards and detail pages use original illustrated personas (`people.js`, D56): 20 invented speakers plus 13 invented roles (traveller, coffee-ceremony host, chef, driver, guide, nurse, officer, volunteer, journalist, reporter, delegate, student, banker), each in a themed scene. All are fictional; there are no photos and no real people.
+
 ## What it shows
 - The approved IA (D16 v2): 5 tabs — Today (Home), Programme, Map, Visit, Updates — plus header actions: alerts, language switch, and the profile button (Profile & Settings with Learn, Library, Archive, Help, About). Search sits on Today and in Programme/Updates.
 - EN / አማ switch with the bundled Ethiopic font (Noto Sans Ethiopic, OFL, subset ≈100 KB woff2). Strings without an Amharic draft fall back to **visible** English (marked "EN"), as the IA requires.
