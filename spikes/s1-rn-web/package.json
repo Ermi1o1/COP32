@@ -1,0 +1,2 @@
+{"name":"s1-rn-web","private":true,"dependencies":{"react":"18","react-dom":"18","react-native-web":"*","esbuild":"*"},
+"scripts":{"build":"esbuild index.js --bundle --minify --outfile=dist/bundle.js --define:process.env.NODE_ENV='\"production\"' --define:global=window --define:__DEV__=false --alias:react-native=react-native-web --loader:.js=jsx && cp index.html NotoSansEthiopic.ttf dist/"}}
