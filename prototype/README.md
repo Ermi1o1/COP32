@@ -12,6 +12,9 @@ The prototype is a Progressive Web App (D55): `manifest.webmanifest`, icons in `
 - **Releasing a change:** bump `VERSION` in `sw.js`. Installed copies then show a "New version ready · Refresh" bar.
 - The service worker only runs over HTTPS (GitHub Pages) or `localhost`.
 
+## Photos (D57)
+Card and header photos in `img/` are openly licensed (CC BY, CC BY-SA, CC0) from Wikimedia Commons via Openverse, cropped and resized. Credits: in-app at *Profile & Settings → Photo credits* (`#/menu/credits`), data in `credits.js`. They show real places and generic events, not COP32, and are never tied to invented people. Data saver switches back to illustrations.
+
 ## Personas and images
 Cards and detail pages use original illustrated personas (`people.js`, D56): 20 invented speakers plus 13 invented roles (traveller, coffee-ceremony host, chef, driver, guide, nurse, officer, volunteer, journalist, reporter, delegate, student, banker), each in a themed scene. All are fictional; there are no photos and no real people.
 

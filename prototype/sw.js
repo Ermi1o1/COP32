@@ -1,7 +1,7 @@
 /* COP32 companion prototype — service worker. Precaches the app shell so the prototype opens and works offline.
    Bump VERSION on every release; old caches are deleted on activate. */
-const VERSION = 'cop32-proto-v0.4.0';
-const SHELL = ['./', 'index.html', 'tokens.css', 'styles.css', 'icons.js', 'people.js', 'data.js', 'app.js', 'manifest.webmanifest',
+const VERSION = 'cop32-proto-v0.5.0';
+const SHELL = ['./', 'index.html', 'tokens.css', 'styles.css', 'icons.js', 'people.js', 'credits.js', 'data.js', 'app.js', 'manifest.webmanifest',
   'assets/AtkinsonHyperlegibleNext-latin.woff2', 'assets/NotoSansEthiopic-subset.woff2', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL))); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VERSION).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
