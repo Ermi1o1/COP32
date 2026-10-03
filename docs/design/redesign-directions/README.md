@@ -27,3 +27,8 @@ Founder asked to match the lime green of https://cic-26.com/ and a reference "CO
 - **Final 2 · Highland Mist** — mist #F7FAF8, deep teal #155E63 hero, lime #9BE15D buttons with dark ink, sunset orange accent; Atkinson Hyperlegible; list shortcuts; faceless illustrated avatars; SVG misty hills + acacia.
 Contrast (computed): ink on lime 7.05:1, leaf green on white 6.50:1, white on teal 7.46:1, lime on deep teal 7.34:1 — all AA. Lime is never used as text on white (it fails AA).
 Constraint kept: colours only. The reference image's logo, wordmark and tagline are **not** copied (D1 unofficial positioning). Same review page/URL, version 2.
+
+## Round 3 (2026-10-03) — Final 2 "Highland Mist" polished (Apple HIG principles)
+Founder chose Final 2 and asked for an Apple-style polish. Same review URL, version 3: an interactive phone (Today + Programme screens, light/dark, scroll-to-collapse title, tab switching, save-star).
+Applied: iOS-style type scale (34/24/20/17/15/13), large title collapsing into a translucent blurred bar, grouped inset lists with indented hairline separators, single teal tint with lime kept for the one primary action, translucent tab bar, 44pt+ targets, spring press/save feedback (off under reduced motion), true dark mode with elevated cards, tabular-number time column, segmented day control and filter chips. Font: Atkinson Hyperlegible Next (cross-platform; native iOS build may use the system font — decide at design-system update).
+Status: awaiting founder approve/edit/reject (decision stored at reviews/F2P on the review page).
