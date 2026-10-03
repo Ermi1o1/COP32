@@ -23,7 +23,7 @@
 | 18 Development roadmap | Done — D38, D39 approved 2026-10-03 | roadmap/development-roadmap.md | roadmap/development-roadmap.md |
 | 19 Project team | Done — D40–D42 approved 2026-10-03 | roadmap/team-requirements.md |
 | 20 Final product blueprint | Done — D43 approved 2026-10-03 | product/final-blueprint.md |
-| 21 Stage 2 execution: IA heuristic validation, spikes, design system, clickable prototype, ADRs, dossier | **Not started — prompt issued 2026-10-03** | roadmap/stage2-execution-prompt.md |
+| 21 Stage 2 execution: IA heuristic validation, spikes, design system, clickable prototype, ADRs, dossier | **In progress (2026-10-03): Track A done (heuristic basis, D44–D45); Track B done (sandbox/desk basis, D46–D50; S1/S5/S6 undecided). Tracks C–F not started.** | roadmap/stage2-execution-prompt.md |
 
 ## Where the project stands in practice
 - Planning documentation is complete through Phase 20 (blueprint approved, D43). Phase 21 ("Stage 2 execution") is defined and ready to run: `docs/roadmap/stage2-execution-prompt.md` is the operating prompt for it — paste it into a fresh Claude Code session (after `/clear`) to execute Tracks A–F (IA heuristic walkthrough, spikes S1–S7 sandbox proofs, design system, clickable prototype, architecture ADRs, external .docx dossier).
