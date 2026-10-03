@@ -73,7 +73,7 @@ Instruction: "Put each card under the section where you would expect to find it.
 | 37 | Language (English/Amharic) | | Menu → Settings (also header) |
 | 38 | Notification settings | | Menu → Settings |
 | 39 | Delete my data | | Menu → Settings |
-| 40 | Volunteer help | | Menu / Home (role) |
+| 40 | Ask a volunteer for help / Volunteer sign-up *(reworded per D45 — original "Volunteer help" was ambiguous; test as two cards if possible)* | | Menu / Home (role) |
 
 ### 4.4 What to record per participant
 Groups created (names + cards), cards left aside, cards hesitated on, quotes about naming. For closed sort: where each card went.
@@ -98,7 +98,7 @@ Menu: Learn (COP explained, Climate basics, Africa & Ethiopia, Green Legacy, Glo
 | # | Task (say it naturally; don't use the label words) | Correct location(s) |
 |---|---|---|
 | T1 | You just landed at Bole airport. Where would you look to get to your hotel? | Visit → Getting around → Airport |
-| T2 | Find out whether the public can attend events without a badge. | Home (Can I attend? shortcut) **or** Menu → Learn → COP explained (accept both; note which) |
+| T2 | Find out whether ordinary members of the public can go to COP32 events, or only people with a special pass. | Home (Can I attend? shortcut) **or** Menu → Learn → COP explained (accept both; note which) |
 | T3 | Find events happening tomorrow that are open to everyone. | Programme → Schedule (filter) / Side events |
 | T4 | A session you saved has moved. Where would you check? | Home → Alerts **or** Updates → Alerts history **or** Programme → My agenda |
 | T5 | You're a journalist and need today's press releases. | Updates → Press centre |
