@@ -63,7 +63,7 @@
 | D41 | Engagement types, onboarding checklist, independence rules; written IP assignment, confidentiality and conflict declarations before work/access. | Copyright default ownership (volunteers not covered); D39 | Informal participation | Legal paperwork | Approved by user 2026-10-03 |
 | D42 | Governance model, decision rights, RACI and event-time roster positions; roster arithmetic computed in R10. | Roadmap; admin platform ops model | Ad hoc | Operations readiness | Approved by user 2026-10-03 |
 
-| D43 (PROPOSED) | Adopt docs/product/final-blueprint.md (v1.0) as the consolidated baseline; re-baseline at each gate G1–G5 and on trigger events. | Brief Phase 20 | Keep only per-phase files | Single entry point for funders, partners, new contributors | Proposed |
+| D43 | Adopt docs/product/final-blueprint.md (v1.0) as the consolidated baseline; re-baseline at each gate G1–G5 and on trigger events. | Brief Phase 20 | Keep only per-phase files | Single entry point for funders, partners, new contributors | Approved by user 2026-10-03 |
 
 ## Open questions
 ### Host/government-only questions (added 2026-10-03; to ask via Secretariat and Digital Task Force; see outreach pack)

@@ -22,13 +22,13 @@
 | 17 Business & sustainability | Done — D34, D36 approved; D35 = split ownership first (fallback A/C); D37 PPR terms recorded | product/business-sustainability-model.md |
 | 18 Development roadmap | Done — D38, D39 approved 2026-10-03 | roadmap/development-roadmap.md | roadmap/development-roadmap.md |
 | 19 Project team | Done — D40–D42 approved 2026-10-03 | roadmap/team-requirements.md |
-| 20 Final product blueprint | **Draft v1.0 written — awaiting founder review (D43 proposed)** | product/final-blueprint.md |
+| 20 Final product blueprint | Done — D43 approved 2026-10-03 | product/final-blueprint.md |
 
 ## Where the project stands in practice
 - Planning documentation is complete through Phase 20 (blueprint draft awaiting review). Next work is execution: legal foundation, outreach, BA validation, spikes, prototype/demo.
 - **Not started yet (execution):** legal set-up (company registration, IP assignments, PPR agreement), outreach (letters drafted, not sent), spikes S1–S7, UI design, prototype/demo build.
 - **Next gate:** G1 on 31 Dec 2026 (see roadmap).
 ## Decisions awaiting approval
-D43 (adopt final blueprint as baseline).
+None. All decisions D1–D43 approved.
 ## Next session should read first
 docs/decisions/log.md, docs/product/final-blueprint.md, docs/roadmap/phase-status.md, docs/roadmap/development-roadmap.md.

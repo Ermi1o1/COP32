@@ -1,6 +1,6 @@
 # COP32 Public Platform — Final Product Blueprint (v1.0 draft, 2026-10-03)
 
-**Status:** consolidation of Phases 0–19. Decisions D1–D42 are approved (see `docs/decisions/log.md`); this blueprint adds only **D43** (adopt this blueprint as the baseline). Every statement points to the file that holds the detail; if this file and a source file disagree, the source file and the decision log win.
+**Status:** APPROVED v1.0 (2026-10-03). Consolidation of Phases 0–19. Decisions D1–D42 are approved (see `docs/decisions/log.md`); this blueprint adds only **D43** (adopt this blueprint as the baseline). Every statement points to the file that holds the detail; if this file and a source file disagree, the source file and the decision log win.
 **Evidence labels:** **A** confirmed · **B** officially announced · **C** reported, unconfirmed · **D** analysis · **E** assumption · **F** needs verification.
 **Scope rule kept throughout:** team capacity is not assumed or discussed (founder instruction); functions are listed, not people.
 **Not in this document:** no code, no UI design, no technology lock-in beyond decisions D17/D18 (framework, CMS, search, hosting are decided by spikes S1–S7).
@@ -295,7 +295,7 @@ Consolidated top risks (full registers: `decisions/log.md`, and the risk tables 
 | Content & operations | D24 outreach pack · D28 CMS · D29 publishing tracks · D30 alert protocol · D31 consoles/roles · D32 operations cell · D33 aggregate analytics |
 | Business | D34 revenue model · D36 sponsorship policy |
 | Roadmap & team | D38 roadmap and gates · D40 function catalogue · D41 engagement/onboarding · D42 governance/RACI/roster |
-| Blueprint | **D43 (proposed)** adopt this blueprint as the baseline |
+| Blueprint | **D43 (approved 2026-10-03)** adopt this blueprint as the baseline |
 
 ## Appendix B — Document map
 | Area | File |
