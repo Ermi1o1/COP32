@@ -20,3 +20,10 @@ Founder feedback: design must be **light, minimal and user friendly**; review mu
 - B · Clear Sky — white, calm blue, Public Sans, Lucide on pale-blue squares, 2×2 soft tiles, rounded-square avatars
 - C · Fresh Air — white, teal + coral touch, Atkinson Hyperlegible, larger text, full-width button shortcuts, faceless illustrated avatars
 The earlier v1 mockups in `prototype/directions/` are superseded by these.
+
+## Round 2 (2026-10-03) — two finals, lime/teal palette
+Founder asked to match the lime green of https://cic-26.com/ and a reference "COP32 Ethiopia" key-visual image (misty teal Africa/acacia scene, sunset-orange/navy/sky logo), and to reflect COP32 + Ethiopian themes. Sampled colours: cic-26 logo lime ≈ #62C200 → #307000; image mist #75A194, deep teal #1B4752, sand #EBD9B3, sunset #F7971F, ocean #2795AE.
+- **Final 1 · Green Legacy** — white, lime #62C200 fills with dark ink text, leaf green #2F6B0E for text/icons, sun yellow #F5B21B; Figtree; 2×2 tiles; initials avatars; SVG highland hills + sun.
+- **Final 2 · Highland Mist** — mist #F7FAF8, deep teal #155E63 hero, lime #9BE15D buttons with dark ink, sunset orange accent; Atkinson Hyperlegible; list shortcuts; faceless illustrated avatars; SVG misty hills + acacia.
+Contrast (computed): ink on lime 7.05:1, leaf green on white 6.50:1, white on teal 7.46:1, lime on deep teal 7.34:1 — all AA. Lime is never used as text on white (it fails AA).
+Constraint kept: colours only. The reference image's logo, wordmark and tagline are **not** copied (D1 unofficial positioning). Same review page/URL, version 2.
