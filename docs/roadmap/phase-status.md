@@ -14,6 +14,7 @@
 | 10 User flows | Done — approved 2026-10-01 |
 | 11 Technical architecture | Done — D17, D18 approved 2026-10-03; spike briefs issued |
 | 12 Data & integration strategy | Done — D19, D20 approved 2026-10-03; outreach pack drafted (not sent) |
-| 13 Security, privacy & governance | **Draft v1 written — awaiting founder review (D21–D23 proposed)** |
-| 14+ | Not started |
+| 13 Security, privacy & governance | Done — D21–D23 approved 2026-10-03 |
+| 14 Accessibility & localisation | **Draft v1 written — awaiting founder review (D25–D27 proposed)** |
+| 15+ | Not started |
 Next session: read docs/decisions/log.md, docs/research/cop32-context.md, docs/roadmap/phase-status.md.

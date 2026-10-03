@@ -99,3 +99,13 @@
 | Google Play account deletion requirements | Google | 2024 | Store policy | https://support.google.com/googleplay/android-developer/answer/13327111?hl=en | High (official) | In-app deletion path + web link |
 | Offering account deletion in your app | Apple | n.d. | Store policy | https://developer.apple.com/support/offering-account-deletion-in-your-app/ | High (official) | In-app account deletion; privacy labels |
 | OWASP MASVS | OWASP | n.d. | Mobile security standard | https://mas.owasp.org/MASVS/03-Using_the_MASVS/ | High | L1/L2/R levels |
+| Languages of Ethiopia; federal working languages 2020 | Wikipedia; Right for Education; Ethiopia Insight | 2020–26 | Language landscape | https://en.wikipedia.org/wiki/Languages_of_Ethiopia | Medium (tertiary) | Five federal working languages; speaker numbers |
+| Mobile OS and Android/iOS version share, Ethiopia | StatCounter | 2025–26 | Device mix | https://gs.statcounter.com/android-version-market-share/mobile-tablet/ethiopia | Medium (web-traffic based) | Android ≈94%; Android 11+ ≈82% |
+| Supported voices and languages (Cloud TTS) | Google Cloud | 2026 | Amharic TTS | https://docs.cloud.google.com/text-to-speech/docs/list-voices-and-types | High (official; check Amharic row) | am-ET voices exist; quality unverified |
+| Whispering in Amharic: fine-tuning Whisper | Academic preprint (arXiv) | 2025 | Amharic ASR | https://arxiv.org/pdf/2503.18485 | Medium-High | Baseline poor; fine-tuning and homophone normalisation help |
+| Amharic speech-to-text claims | ElevenLabs | 2026 | Amharic ASR | https://elevenlabs.io/speech-to-text/amharic | Low (vendor) | WER claims; unverified |
+| ENAD — Ethiopian National Association of the Deaf | ENAD | n.d. | Disability partners | https://www.enadet.org/about/ | Medium (organisation) | Deaf association; EthSL advocacy |
+| Lack of national sign language recognition | Capital Ethiopia | 2025-06 | Sign language status | https://capitalethiopia.com/2025/06/08/lack-of-national-sign-language-recognition-deepens-barriers-for-the-deaf-and-disabled-communities/ | Medium | EthSL not officially recognised |
+| WCAG 2.2 target size and new criteria | W3C-derived guides | 2023–26 | Accessibility standard | https://wcag22aa.org/new-criteria/target-size/ | Medium (secondary) | 24×24 CSS px minimum; 9 new criteria |
+| European Accessibility Act / EN 301 549 | EU; vendor guides | 2025 | Accessibility regulation | https://en.wikipedia.org/wiki/European_Accessibility_Act | Medium | Applied from 28 Jun 2025; WCAG 2.1 AA reference; 2.2 planned |
+| Localization testing for mobile apps (script rendering) | Drizz | 2026 | Font/OEM differences | https://www.drizz.dev/post/localization-testing-for-mobile-apps | Low-Medium | Android OEM font variation |
