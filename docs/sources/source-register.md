@@ -109,3 +109,12 @@
 | WCAG 2.2 target size and new criteria | W3C-derived guides | 2023–26 | Accessibility standard | https://wcag22aa.org/new-criteria/target-size/ | Medium (secondary) | 24×24 CSS px minimum; 9 new criteria |
 | European Accessibility Act / EN 301 549 | EU; vendor guides | 2025 | Accessibility regulation | https://en.wikipedia.org/wiki/European_Accessibility_Act | Medium | Applied from 28 Jun 2025; WCAG 2.1 AA reference; 2.2 planned |
 | Localization testing for mobile apps (script rendering) | Drizz | 2026 | Font/OEM differences | https://www.drizz.dev/post/localization-testing-for-mobile-apps | Low-Medium | Android OEM font variation |
+| Common Alerting Protocol v1.2 | OASIS | 2010 | Alert standard | https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html | High (standard) | Urgency/severity/certainty; ITU X.1303 |
+| ISO 24495-1:2023 Plain language | ISO | 2023 | Editorial standard | https://www.iso.org/standard/78907.html | High | Four principles: relevant, findable, understandable, usable |
+| United Nations Editorial Manual Online | United Nations | n.d. | House style | https://www.un.org/dgacm/en/content/editorial-manual | High | Authoritative UN style |
+| UN Geneva web style guide | UN Geneva | n.d. | Web style | https://www.ungeneva.org/en/styleguide | High | Web writing conventions |
+| Ethiopia Media Proclamation 1238/2021 summaries | Law-firm blogs; ethiodata | 2021–26 | Media law | https://ethiodata.et/ethiopia-media-proclamation-no-1238-2021/ | Medium (secondary) | Online media definition; EMA accreditation; editor-in-chief responsibility |
+| Ethiopia to amend media law: registration of digital platforms | Ethiopia Today | 2026 | Media law change | https://ethiopiatoday.net/ethiopia-to-amend-media-law-mandating-registration-for-all-digital-platforms/ | Medium | Proposed registration mandate; verify |
+| Reuters accreditation revoked / reinstated | CPJ; US News | 2026-02 / 2026-08 | Media environment | https://cpj.org/2026/02/ethiopia-revokes-reuters-journalists-accreditation-following-investigative-report/ | Medium-High | Press accreditation sensitivities |
+| IFCN Code of Principles | Poynter / IFCN | 2019–20 | Fact-checking standards | https://ifcncodeofprinciples.poynter.org/the-commitments | High | Transparency, corrections policy |
+| Weblate / translation management tools | Industry blogs | 2025–26 | Translation tooling | https://blog.elest.io/weblate-free-open-source-alternative-to-crowdin-lokalise/ | Low-Medium | Open-source TMS with translation memory and glossary |

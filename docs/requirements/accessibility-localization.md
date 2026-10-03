@@ -16,7 +16,8 @@ Federal working languages: Amharic, Afaan Oromo, Somali, Tigrinya, Afar (Council
 ### 1.2 Devices and operating systems
 - StatCounter (web traffic; may skew toward heavier internet users): Ethiopia mobile OS share **Android ≈ 94%, iOS ≈ 3%** (Aug 2025). Android versions (May 2026): 14 ≈ 19%, 13 ≈ 14%, 15 ≈ 14%, 16 ≈ 13%, 11 ≈ 11%, 12 ≈ 11% → roughly **82% on Android 11+**, the remainder on older versions. iOS versions (Dec 2025): iOS 18.x dominates; iOS 16.7 ≈ 5%.
 - Connectivity (Phase 3): ~19% internet penetration nationally; urban mobile internet use 48% vs rural 19% (GSMA 2026 via secondary). International visitors skew iOS and fast networks.
-- **Implication:** Android-first quality, broad Android version support, small downloads; iOS still required (international users, demo audience).
+- **Founder correction (2026-10-03):** most users are expected to be **participants and visitors from around the world**, so iPhone use is likely to be **roughly equal to Android** among them (hypothesis, to be measured in the pilot). Ethiopian national statistics describe local residents, not the visitor population.
+- **Implication:** treat **Android and iOS as equal-priority platforms (parity)**: same features, same quality bar, same release day; Android needs broad version support and small downloads for local/low-end devices, iOS needs equal polish and test coverage for international users and the demo audience. Web remains the third equal channel.
 
 ### 1.3 Accessibility context
 - Disability prevalence estimates in Ethiopia vary widely (tens of millions of people with disabilities are claimed by advocacy sources; official deaf population ~250,000 vs ENAD claims of far higher). **Treat all numbers as uncertain.** The Ethiopian National Association of the Deaf (ENAD) exists (28 branches, member of the World Federation of the Deaf).
@@ -112,7 +113,7 @@ Rules: no machine-only translation for official/safety content; if machine trans
 Low-data mode (user-controlled and auto-suggested on poor networks); resume interrupted downloads; storage manager with quota; background sync on Wi-Fi only by default; request only necessary permissions; battery-friendly polling; graceful offline states with last-updated timestamps; skeleton screens rather than spinners.
 ### 4.3 OS support (proposed D27)
 - **Android:** support Android 8.0 (API 26) or higher if the chosen framework allows (roughly covers current devices; ≈18% of Ethiopian web traffic is on versions older than 11); revisit after spike S1 and real install data. Test on 2 GB RAM devices and Android Go–class devices.
-- **iOS:** support the two to three most recent major versions plus iOS 16 if feasible (iOS 16.7 still ≈5% of Ethiopian iOS traffic); decide with the framework minimums.
+- **iOS (parity with Android):** support the three most recent major iOS versions plus one older version if feasible (iOS 16.7 is still ≈5% of Ethiopian iOS traffic; global iOS adoption of new versions is typically fast); set the exact minimum with the framework minimums and, after the pilot, real install data. Test iPhone models across screen sizes (small SE-class, standard, large) and an older model with limited memory.
 - **Web:** last two versions of Chrome, Safari, Firefox, Edge, plus Samsung Internet and Opera Mini/Mini-class browsers in "extreme data saver" mode degraded gracefully (core content readable without JavaScript where feasible).
 - **Huawei without Google services:** reachable via web app; push through HMS evaluated (S6); store distribution through AppGallery considered.
 - Distribution: Play Store, App Store, web; plus APK direct download (with signature verification) for places with limited store access — decision for owner (security trade-offs).
@@ -160,4 +161,4 @@ Low-data mode (user-controlled and auto-suggested on poor networks); resume inte
 ## 8. Proposed decisions
 - **D25:** raise the accessibility target to WCAG 2.2 AA (web) with equivalent criteria for apps; adopt the testing and assurance plan (§2.3) including user testing with disability organisations and independent audits before pilot and event.
 - **D26:** language waves (§3.1): English + Amharic in MVP; Wave-2 Tier A essentials for candidate languages decided by demand data; RTL-ready foundations from the start.
-- **D27:** performance and device targets (§4): budgets as proposals to validate in spikes; Android 8+/iOS minimum targets subject to framework and install data; low-data mode and offline Tier A in MVP.
+- **D27 (approved with amendment, 2026-10-03):** performance and device targets (§4): budgets as proposals to validate in spikes; **Android and iOS are equal-priority platforms (parity)** because the main audience is international; minimum OS versions subject to framework and install data; low-data mode and offline Tier A in MVP.

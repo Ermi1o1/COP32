@@ -12,8 +12,10 @@ Prepared 2026-10-03 for the engineering team. Each spike answers one question wi
 | A4 | Xiaomi/Redmi or Oppo/Realme | Aggressive battery management (push/background tests) |
 | A5 | Huawei (without Google services) if available | HMS push, font stack |
 | A6 | Recent flagship Android | Baseline |
-| I1 | iPhone (older supported model) | |
-| I2 | iPhone (recent) | |
+| I1 | iPhone (older supported model, limited memory) | Parity with Android (founder 2026-10-03) |
+| I2 | iPhone (small screen, e.g., SE-class) | |
+| I3 | iPhone (standard recent) | |
+| I4 | iPhone (large/Pro Max class) + an iPad if tablet support is planned | |
 | W1–W3 | Web: Chrome Android, Safari iOS, desktop Chrome/Firefox | |
 Network profiles: Wi-Fi; throttled 3G (~400 kbps, 400 ms RTT); flaky (30% packet loss); offline.
 ### Amharic test text set (ask a native speaker to confirm and extend)
@@ -85,7 +87,7 @@ Per-locale fields and translation status · draft/publish · scheduled publish �
 ## S6 — Push notifications
 **Question:** Do alerts arrive reliably and fast on typical Ethiopian devices and networks, including Huawei and aggressive-battery phones?
 **Build:** minimal sender using FCM, APNs, and Huawei HMS (if A5 available); alerts with topics (language, role).
-**Test:** delivery rate and latency to A1–A6, I1–I2 across Wi-Fi/cellular, in foreground/background/after reboot, battery saver on; message collapse and priority; deep links into app; silent data push to trigger sync; behaviour when permission denied; polling fallback timing.
+**Test:** delivery rate and latency to A1–A6, I1–I4 across Wi-Fi/cellular, in foreground/background/after reboot, battery saver on; message collapse and priority; deep links into app; silent data push to trigger sync; behaviour when permission denied; polling fallback timing.
 **Measure:** p50/p95 latency; delivered %; failure causes; user permission flow.
 **Deliverables:** results table, recommended settings, fallback design (polling interval, in-app banner), notes for privacy notice (what passes through Google/Apple/Huawei).
 

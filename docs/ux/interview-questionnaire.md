@@ -49,11 +49,23 @@ Purpose: validate personas/journeys with 5–8 short interviews (15–25 min eac
 24. What are your biggest worries about attending in Addis (hotel, visa, transport, safety, internet)?
 25. What would you want in a pre-trip guide? Would you download it before travel?
 
+## Part F — Language and platform demand (added 2026-10-03; ask everyone, after Part C)
+28. Which languages can you comfortably read an app in? Rank them: English, Amharic, Afaan Oromo, Tigrinya, Somali, Afar, French, Arabic, other.
+29. If the app were available in only two languages, which two? If a third was added, which would be the most useful, and why?
+30. For *essential* information only (safety, arrival, FAQs, alerts, maps), which additional languages would matter to you or to people you know?
+31. Do you ever use machine translation (e.g., the phone's translate feature) on apps or websites? Do you trust it for safety information?
+32. Would you prefer to listen to key information in Amharic (audio) rather than read it? In which situations?
+33. For visitors and international respondents: what phone do you use — iPhone or Android (brand if known)? For locals: which brand/model?
+34. Do you prefer to install an app, use a website, or both? What would make you install it before travel?
+35. How do you usually read times for events when travelling or in Ethiopia (international clock vs the traditional Ethiopian hour count)? Has it ever caused confusion?
+36. Any accessibility needs or preferences that influence which language or format you choose (large text, audio, captions, sign language)? (Optional; no need to disclose.)
+Record in the template: ranked languages, top-2 and top-3 languages, audio preference, platform (iPhone/Android/web), install preference, time-notation issues.
+
 ## Part E — Close  [2 min]
 26. If we could build only three things for COP32, what would you choose?
 27. Anything we haven't asked that matters? May we contact you again for testing? (yes/no; contact only if yes)
 
 ## Recording template (one row per interview)
-| Code | Date | Role/persona | Language | Device/OS | Preferred channel | Top 3 needs | Trust conditions | Accessibility notes | Quote (anonymous) | Surprises |
-|---|---|---|---|---|---|---|---|---|---|---|
+| Code | Date | Role/persona | Language | Device/OS | Preferred channel | Top 3 needs | Trust conditions | Accessibility notes | Languages ranked | Top-2/Top-3 languages | Audio pref | Install pref | Time-notation issue | Quote (anonymous) | Surprises |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 Save to: docs/ux/interview-results/ (create) as CSV or markdown; **no personal identifiers**. The product owner/BA summarises key themes (top needs by persona, language/channel preference, trust conditions) into a one-page note; the next session will fold it into personas and Phase 7/8.
