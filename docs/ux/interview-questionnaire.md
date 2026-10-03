@@ -61,6 +61,16 @@ Purpose: validate personas/journeys with 5–8 short interviews (15–25 min eac
 36. Any accessibility needs or preferences that influence which language or format you choose (large text, audio, captions, sign language)? (Optional; no need to disclose.)
 Record in the template: ranked languages, top-2 and top-3 languages, audio preference, platform (iPhone/Android/web), install preference, time-notation issues.
 
+## Part G — Alerts and urgent information (added 2026-10-03; ask everyone, short)
+37. If something important changed during a big event (a session moved, a road closed, a safety issue), how would you want to be told? Rank: phone notification, SMS, in-app banner, WhatsApp/Telegram, email, loudspeakers/signs, volunteers.
+38. What kinds of alerts would you want? Which would you NOT want (too many or too noisy)? (Programme changes, transport and road closures, weather, security/safety, health, venue crowding, official announcements.)
+39. Who would you trust to send a safety alert — the organisers, government, UN, the app's team? How would you want it to show who sent it?
+40. In which language(s) should an urgent alert appear? Is it acceptable if it appears in English and Amharic together?
+41. How quickly do you expect a schedule change to appear in the app (minutes, an hour, the same day)?
+42. Would you share your approximate location to receive alerts only for your area (kept on your phone, not stored)? Why or why not?
+43. Have you received a bad or false alert before? What happened, and what would have prevented it?
+Record: preferred channels (ranked), wanted/unwanted alert types, trusted senders, language preference, speed expectation, location comfort.
+
 ## Part E — Close  [2 min]
 26. If we could build only three things for COP32, what would you choose?
 27. Anything we haven't asked that matters? May we contact you again for testing? (yes/no; contact only if yes)

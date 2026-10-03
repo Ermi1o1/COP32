@@ -27,3 +27,7 @@ Dear [Name], We plan to show light-rail, bus and minibus routes using open data 
 ## G. Addis Chamber (Green Growth Centre) — introduction
 **Subject:** Introduction and potential collaboration
 Dear [Name], We are building an independent public-information platform for COP32 and would value an introduction to the Green Growth Centre team and to the appropriate government contacts. We can share a demonstration and see whether private-sector events could be listed. Contact: [..]
+
+## H. Authorities who may authorise alerts (host operations / security / health / transport)
+**Subject:** Relaying authorised alerts for COP32 visitors — request for protocol
+Dear [Name], Zega Tech PLC is preparing a public-information platform for COP32 (English/Amharic). If it is recognised by the host, we propose to **relay** alerts authorised by competent bodies; we will not originate emergency instructions. We would like to understand: (1) which bodies authorise which alert types; (2) 24/7 contacts and how we verify messages (e.g., reference codes, secure channel); (3) approved templates and wording in English and Amharic; (4) test and drill procedures; (5) expected timelines for updates and "all clear" messages; (6) how geographic areas are described (zones, named areas). Our process includes dual approval, signed delivery and an audit log. Contact: [..]

@@ -56,7 +56,7 @@ We ask only for information that you are able and willing to share publicly or w
 | P1 | Confirmed dates, venue(s) and zone concept (including any public/open area) | PDF/web page, plan files | When announced |
 | P1 | Rules for public/non-accredited access (entry, passes, capacity) | Web page | When decided |
 | P1 | Official programme and side-event data (titles, times, rooms, languages, access type, status) | CSV, JSON or ICS; spreadsheet acceptable | Rolling, from first draft |
-| P1 | Official channel for alerts (safety, closures) and a contact for urgent updates | Contact + protocol | Before pilot |
+| P1 | **Alert authorisation:** the bodies authorised to originate or approve public safety, security, health, transport and venue-operations alerts; their 24/7 contacts; preferred message formats and bilingual templates; test/drill procedures; and whether and how they want alerts relayed in the platform (we relay authorised alerts only; we do not originate emergency instructions) | Contact list + protocol | Before pilot |
 | P2 | Venue plans and accessibility information (step-free routes, facilities) | GeoJSON/CAD/PDF | 6 months before |
 | P2 | Speakers and pavilion/exhibitor lists with permission for public display | CSV | Rolling |
 | P2 | Official links: accreditation, visa arrangements, accommodation platform, transport plans, press centre | URLs | Rolling |
