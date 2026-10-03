@@ -64,6 +64,14 @@ Evidence used (secondary 2026 comparisons, to verify by spike): Flutter shows co
 | UI prototype speed for the demo [1] | 3 | 2 | 3 | 1 |
 | **Weighted total (max 54)** | **47** | **48** | **43** | **45** |
 Reading: C is clearly weaker because of the public web. **A and B are effectively tied** (47 vs 48; scores are judgement, not measurement). The deciding factors — Ge'ez rendering consistency, performance on the real device mix in Addis, and screen-reader behaviour with Amharic — are empirical.
+**Sandbox evidence overlay (Phase 21, 2026-10-03 — web builds only; see `spike-results/S1-mobile-framework.md`, ADR-006).** No score above was changed, because the decisive criteria could not be measured without devices:
+| Criterion | Evidence obtained | Effect on scores |
+|---|---|---|
+| Amharic rendering consistency | Flutter web and React Native Web both rendered the full test set correctly with a bundled font; symbol glyph (✓) failed in Flutter without a bundled glyph (ADR-004) | None — rule applies to both; real-device test still open |
+| Public web quality / app size (web only) | Cold load ≈1.55 MB (React Native Web) vs ≈8.9 MB (Flutter web, CanvasKit); shell ready ≈0.17 s vs ≈0.69 s, unthrottled headless | Supports C scoring 1 on public web; says nothing about native size |
+| Low-end Android performance, offline DB, TalkBack/VoiceOver, native app size | Not measurable in the sandbox | Estimated scores stand; **unmeasured** |
+Result: A vs B remain tied; the D18 spike on real devices is still the deciding step.
+
 **Proposal:** do not decide by opinion; run a **comparative spike** (§10) building the same three screens (Amharic schedule list with search, offline mode, a map screen) in A and B and testing on the real Android device matrix + an iPhone. Choose the winner against pre-set criteria.
 
 ### 3.3 Backend and CMS options
