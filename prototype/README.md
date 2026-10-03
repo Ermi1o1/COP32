@@ -9,7 +9,7 @@
 The prototype is a Progressive Web App (D55): `manifest.webmanifest`, icons in `icons/`, and a service worker (`sw.js`) that precaches the app shell so it opens and works offline after the first visit.
 - **Android / Chrome:** an "Install the app" card appears on Today and in Profile & Settings; or use the browser menu → *Install app*.
 - **iPhone / Safari:** Share → *Add to Home Screen* (the card shows this hint on iOS).
-- **Releasing a change:** bump `VERSION` in `sw.js`. Installed copies then show a "New version ready · Refresh" bar.
+- **Releasing a change:** bump `VERSION` and `V` in `sw.js` and the `?v=` on the asset URLs in `index.html` (keep all three the same). The service worker is network-first, so online users get the new deploy on their next open; the cache is only used offline. Photos are cached on first view.
 - The service worker only runs over HTTPS (GitHub Pages) or `localhost`.
 
 ## Photos (D57)
