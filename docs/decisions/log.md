@@ -56,8 +56,12 @@
 | D36 | Sponsorship and independence policy with screening red lines, caps, no sponsored safety content, public disclosure. | COP sponsorship controversies | Open sponsorship | Credibility protection | Approved by user 2026-10-03 |
 | D37 | PPR framework to be defined in writing with counsel (pool vs per-person, profit definition, grant exclusions, timing, exit); consider hybrid/milestone structures. | D7; grant restrictions; IP | Informal PPR | Team agreements | Approved 2026-10-03 with founder terms: **15% is a pool; net profit = net income after expenses**; grant-funded work compensated via the L1–L8 stack (business model §7.5); counsel to draft |
 
-| D38 (PROPOSED) | Adopt Phase 18 roadmap: phases R1–R15, gates G1–G4 plus new G5 (go-live readiness, 15 Oct 2027), critical-path actions (legal foundation, store/D-U-N-S, hosting, pentest bookings). | Brief; D4 gates; release plan | Unstructured plan | Project timeline | Proposed |
-| D39 (PROPOSED) | Signed contributor IP assignments and a settled PPR framework are entry criteria for G1/G2; no public release before IP assignment. | D35, D37 | Informal agreements | Legal readiness | Proposed |
+| D38 | Adopt Phase 18 roadmap: phases R1–R15, gates G1–G4 plus new G5 (go-live readiness, 15 Oct 2027), critical-path actions (legal foundation, store/D-U-N-S, hosting, pentest bookings). | Brief; D4 gates; release plan | Unstructured plan | Project timeline | Approved by user 2026-10-03 |
+| D39 | Signed contributor IP assignments and a settled PPR framework are entry criteria for G1/G2; no public release before IP assignment. | D35, D37 | Informal agreements | Legal readiness | Approved by user 2026-10-03 |
+
+| D40 (PROPOSED) | Function catalogue and essential-vs-later tiers as baseline definition of the required team; coverage tracked privately in a register. | Brief Phase 19; roadmap workstreams | Headcount-based plan | Resourcing conversations later | Proposed |
+| D41 (PROPOSED) | Engagement types, onboarding checklist, independence rules; written IP assignment, confidentiality and conflict declarations before work/access. | Copyright default ownership (volunteers not covered); D39 | Informal participation | Legal paperwork | Proposed |
+| D42 (PROPOSED) | Governance model, decision rights, RACI and event-time roster positions; roster arithmetic computed in R10. | Roadmap; admin platform ops model | Ad hoc | Operations readiness | Proposed |
 
 ## Open questions
 ### Host/government-only questions (added 2026-10-03; to ask via Secretariat and Digital Task Force; see outreach pack)

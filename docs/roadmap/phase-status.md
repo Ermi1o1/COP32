@@ -20,8 +20,8 @@
 | 15 Content & editorial | Done (D28–D30) | content/editorial-system.md |
 | 16 Admin & operations | Done (D31–D33) | operations/admin-platform.md |
 | 17 Business & sustainability | Done — D34, D36 approved; D35 = split ownership first (fallback A/C); D37 PPR terms recorded | product/business-sustainability-model.md |
-| 18 Development roadmap | **Draft v1 written — awaiting founder review (D38, D39 proposed)** | roadmap/development-roadmap.md |
-| 19 Project team | Not started | — |
+| 18 Development roadmap | Done — D38, D39 approved 2026-10-03 | roadmap/development-roadmap.md | roadmap/development-roadmap.md |
+| 19 Project team | **Draft v1 written — awaiting founder review (D40–D42 proposed)** | roadmap/team-requirements.md |
 | 20 Final product blueprint | Not started | — |
 
 ## Where the project stands in practice
@@ -29,6 +29,6 @@
 - **Not started yet (execution):** legal set-up (company registration, IP assignments, PPR agreement), outreach (letters drafted, not sent), spikes S1–S7, UI design, prototype/demo build.
 - **Next gate:** G1 on 31 Dec 2026 (see roadmap).
 ## Decisions awaiting approval
-D38 (roadmap, G5), D39 (IP assignment and PPR as gate criteria).
+D40 (function catalogue), D41 (engagement/onboarding/independence), D42 (governance/RACI/event roster).
 ## Next session should read first
-docs/decisions/log.md, docs/roadmap/development-roadmap.md, docs/roadmap/phase-status.md.
+docs/decisions/log.md, docs/roadmap/team-requirements.md, docs/roadmap/development-roadmap.md, docs/roadmap/phase-status.md.
