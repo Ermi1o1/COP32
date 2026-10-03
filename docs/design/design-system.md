@@ -197,6 +197,13 @@ Founder feedback: v0.2 read as too text-based. v0.3 keeps the tokens, palette an
 - **Lists stay where lists are best:** Settings, glossary, library, alerts and search results keep the grouped-list style.
 - At 200% text, shelves and grids become a single column and covers get fixed heights.
 
+## 8b. Illustrated personas (D56, 2026-10-03)
+Every content card carries an invented person in a themed scene (`prototype/people.js`), so the prototype reads as a real product in presentations without using photos of real or stock people.
+- **Figure system:** half-body flat-vector people built from parameters: 6 skin tones; hair styles (afro, braids, bun, long, short, fade, gray, bald), head coverings (headwrap, hijab, kufi, cap); beard; glasses; shirt or jacket; a white **netela** shawl with a coloured **tibeb** border; a conference lanyard and badge; and one prop (mic, laptop, tablet, clipboard, seedling, jebena coffee pot, hard hat, camera, book, stethoscope, map, phone, plate, suitcase).
+- **Cast:** 20 speakers (P01–P20, one look each, reused on their sessions, cards and avatars, so a person is recognisable across screens) and 13 roles for guides, news and live cards.
+- **Rules:** every person is invented and labelled sample/fictional; the cast is diverse in gender, age and origin, with Ethiopian dress shown respectfully. No photos, no likeness of real people, no logos.
+- **Photoreal option (not done):** AI-generated photoreal personas were requested. No image-generation service was available in this session (the Replicate connector failed and Figma Weave was not linked). If that is enabled later, any generated people must still be clearly marked as fictional.
+
 ## 9. How the prototype (Track D v2) uses this
 `prototype/build.py` generates CSS custom properties from `tokens.json`; `prototype/styles.css` implements the components (`.group`/`.row` grouped list, `.lt` large title, `.nav` translucent bar, `.segc` segmented control, `.cap` capsules, `.notice`, `.pill`, `.tile`, `.hero`, `.switch`). The prototype is the first consumer and therefore the first test of the spec. Header change (D53): the ☰ menu became a **profile button** next to the language switch that opens Profile & Settings (`#/menu`), which also holds Learn, Library, Archive, Help and About. The routes are unchanged.
 

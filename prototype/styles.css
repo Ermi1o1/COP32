@@ -364,3 +364,11 @@ main.enter{animation:enter .32s var(--ease) both}
 .big .vcard,.big .vcard.tall{aspect-ratio:auto;min-height:12rem}
 .big .scard-art,.big .scard.wide .scard-art{aspect-ratio:auto;height:8rem}
 .big .live{aspect-ratio:auto;min-height:14rem}
+
+/* PWA: install card + update bar */
+.install{display:flex;align-items:center;gap:var(--s-3);margin-top:var(--s-4);padding:var(--s-4);border-radius:var(--r-lg);background:var(--c-surface);box-shadow:var(--e-1);flex-wrap:wrap;animation:enter .3s var(--ease) both}
+.install-ic img{display:block;width:3rem;height:3rem;border-radius:.8rem}
+.install .rt{min-width:9rem}
+.update-bar{position:sticky;top:3.25rem;z-index:18;display:flex;align-items:center;justify-content:space-between;gap:var(--s-3);margin:0 var(--gutter);padding:var(--s-2) var(--s-2) var(--s-2) var(--s-4);border-radius:999px;background:var(--c-primary);color:var(--c-onPrimary);font-weight:700;font-size:.9375rem}
+.update-bar .btn{min-height:2.5rem}
+.gnote .i{width:1rem;height:1rem;vertical-align:-3px;color:var(--c-success)}
