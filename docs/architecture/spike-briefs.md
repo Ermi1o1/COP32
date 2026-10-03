@@ -101,10 +101,10 @@ Per-locale fields and translation status · draft/publish · scheduled publish �
 ## Spike results log
 | Spike | Owner | Start | End | Decision | Link to results |
 |---|---|---|---|---|---|
-| S1 | | | | | |
-| S2 | | | | | |
-| S3 | | | | | |
-| S4 | | | | | |
-| S5 | | | | | |
-| S6 | | | | | |
-| S7 | | | | | |
+| S1 | Claude Code sandbox run (web builds only) | 2026-10-03 | 2026-10-03 | No decision (no devices); finding F1 → D49 | spike-results/S1-mobile-framework.md |
+| S2 | Claude Code sandbox run (desk only) | 2026-10-03 | 2026-10-03 | Provisional lean Payload (D50) | spike-results/S2-cms.md |
+| S3 | Claude Code sandbox run | 2026-10-03 | 2026-10-03 | Provisional: PG FTS+trgm+normaliser (D47) | spike-results/S3-search.md |
+| S4 | Claude Code sandbox run | 2026-10-03 | 2026-10-03 | Provisional: PMTiles+MapLibre+own glyphs (D48) | spike-results/S4-offline-maps.md |
+| S5 | Claude Code sandbox run (desk only) | 2026-10-03 | 2026-10-03 | None — founder outreach needed | spike-results/S5-hosting-ethiopia.md |
+| S6 | Claude Code sandbox run (desk only) | 2026-10-03 | 2026-10-03 | None — needs devices/credentials | spike-results/S6-push-notifications.md |
+| S7 | Claude Code sandbox run | 2026-10-03 | 2026-10-03 | Provisional spec adopted (D46) | spike-results/S7-snapshot-sync.md |
