@@ -59,9 +59,11 @@
 | D38 | Adopt Phase 18 roadmap: phases R1–R15, gates G1–G4 plus new G5 (go-live readiness, 15 Oct 2027), critical-path actions (legal foundation, store/D-U-N-S, hosting, pentest bookings). | Brief; D4 gates; release plan | Unstructured plan | Project timeline | Approved by user 2026-10-03 |
 | D39 | Signed contributor IP assignments and a settled PPR framework are entry criteria for G1/G2; no public release before IP assignment. | D35, D37 | Informal agreements | Legal readiness | Approved by user 2026-10-03 |
 
-| D40 (PROPOSED) | Function catalogue and essential-vs-later tiers as baseline definition of the required team; coverage tracked privately in a register. | Brief Phase 19; roadmap workstreams | Headcount-based plan | Resourcing conversations later | Proposed |
-| D41 (PROPOSED) | Engagement types, onboarding checklist, independence rules; written IP assignment, confidentiality and conflict declarations before work/access. | Copyright default ownership (volunteers not covered); D39 | Informal participation | Legal paperwork | Proposed |
-| D42 (PROPOSED) | Governance model, decision rights, RACI and event-time roster positions; roster arithmetic computed in R10. | Roadmap; admin platform ops model | Ad hoc | Operations readiness | Proposed |
+| D40 | Function catalogue and essential-vs-later tiers as baseline definition of the required team; coverage tracked privately in a register. | Brief Phase 19; roadmap workstreams | Headcount-based plan | Resourcing conversations later | Approved by user 2026-10-03 |
+| D41 | Engagement types, onboarding checklist, independence rules; written IP assignment, confidentiality and conflict declarations before work/access. | Copyright default ownership (volunteers not covered); D39 | Informal participation | Legal paperwork | Approved by user 2026-10-03 |
+| D42 | Governance model, decision rights, RACI and event-time roster positions; roster arithmetic computed in R10. | Roadmap; admin platform ops model | Ad hoc | Operations readiness | Approved by user 2026-10-03 |
+
+| D43 (PROPOSED) | Adopt docs/product/final-blueprint.md (v1.0) as the consolidated baseline; re-baseline at each gate G1–G5 and on trigger events. | Brief Phase 20 | Keep only per-phase files | Single entry point for funders, partners, new contributors | Proposed |
 
 ## Open questions
 ### Host/government-only questions (added 2026-10-03; to ask via Secretariat and Digital Task Force; see outreach pack)
