@@ -12,3 +12,11 @@ Working mockups: `prototype/directions/index.html` (side by side), plus `a-…`,
 
 Checks so far: all text/background pairs ≥ 4.5:1 in light and dark for all three (`_contrast.py`). Fonts are self-hosted OFL variable woff2 (≈36–51 KB each; Latin only). Not yet done: Amharic body-text rendering test per direction, 200% text-scale check — these happen after a direction is chosen. No real photos, logos or official names are used; all people are invented.
 Note: the `frontend-design` / `canvas-design` skills named in the prompt are not installed in this session; design decisions here were made directly.
+
+## Revision 2 (2026-10-03) — light, minimal, user-friendly
+Founder feedback: design must be **light, minimal and user friendly**; review must work on a phone. The three directions were redone as light/minimal variants and published as a private mobile review page with Approve / Approve with edits / Reject + notes per direction (decisions are stored with the page and read back by Claude):
+- Review page: https://claude.ai/artifact/3Hsz2HTHPEDUufGY86SPJx (source copy: `review.html`)
+- A · Highland Calm — off-white, deep green, Figtree, thin Lucide icons, list shortcuts, circle initials avatars
+- B · Clear Sky — white, calm blue, Public Sans, Lucide on pale-blue squares, 2×2 soft tiles, rounded-square avatars
+- C · Fresh Air — white, teal + coral touch, Atkinson Hyperlegible, larger text, full-width button shortcuts, faceless illustrated avatars
+The earlier v1 mockups in `prototype/directions/` are superseded by these.
