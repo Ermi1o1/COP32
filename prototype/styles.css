@@ -384,3 +384,9 @@ img.cover{display:block;width:100%;height:100%;object-fit:cover;background:var(-
 .credit-thumb{width:3.5rem;height:2.4rem;object-fit:cover;border-radius:.4rem;flex:none}
 .scard-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.18),rgba(0,0,0,0) 40%,rgba(0,0,0,.12));pointer-events:none}
 .badge-time,.badge-pub{z-index:1}
+
+/* Emergency button in the header (D44b) */
+.cb.sos{color:var(--c-danger)}
+.cb.sos::before{background:var(--c-dangerBg)}
+.cb.sos[aria-current=page]::before{box-shadow:inset 0 0 0 2px var(--c-danger)}
+@media (max-width:380px){.mark span{display:none}.nav{gap:2px}.lang span{padding:0 .25rem}}
