@@ -86,7 +86,7 @@ data = dict(
   ("T6","Find a step-free entrance to the venue.",["map"]),
   ("T7","You want to see a traditional coffee ceremony.",["visit/buna"]),
   ("T8","Change the app language to Amharic.",["menu/settings","header/language"]),
-  ("T9","Learn what \"loss and damage\" means.",["menu/learn"]),
+  ("T9","Learn what \"loss and damage\" means.",["menu/learn","updates/explainers"]),
   ("T10","After COP32, find a recording of the opening ceremony.",["updates/live","menu/archive"]),
   ("T11","Apply for an Ethiopian visa.",["visit/visa"]),
   ("T12","Delete your data from the app.",["menu/settings"])],
