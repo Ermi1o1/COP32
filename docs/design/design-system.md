@@ -211,6 +211,13 @@ Founder asked for real, event-like pictures instead of illustrations. Cards, fea
 - **Data saver:** with Data saver on, cards fall back to the lightweight illustrations (no photo downloads).
 - **Offline:** photos are cached by the service worker as they are viewed.
 
+## 8d. Name and mark: Lemlem (D58, 2026-10-05)
+- **Name:** Lemlem (ለምለም, “lush, green, flourishing”), written “Lemlem · COP32” in the header and store name; home-screen label “Lemlem”. “COP32” stays in the name while this is a prototype (founder decision); the “Independent · not an official COP32 product” label stays on every screen.
+- **Mark:** a seedling (a stem plus two leaves with midribs; the larger leaf on the right and lighter) rising over two highland horizons, with a low sun at top left, on a vertical teal gradient (#1C7478 → #0B4247) with a soft top-left glow. Leaf greens: #7FCB3E → #B9EC7E and #A6E26B → #E2F7C6. Sun: #FFC27A → #E8862A. Original artwork; not derived from any COP32 or UNFCCC mark.
+- **Files:** `docs/design/brand/lemlem-mark.svg` (full-bleed master), `lemlem-mark-maskable.svg` (seedling and sun scaled to the 80% safe zone for Android masks), `lemlem-icon-512.png`; the prototype uses `prototype/icons/` (favicon.svg, favicon-32, icon-192/512, maskable-512, apple-touch-icon).
+- **Lockup:** 30px rounded mark + “Lemlem” (Atkinson Hyperlegible Next 800, −0.015em) + a small “COP32” pill (primarySoft). Below 380px the pill hides; the mark and name stay.
+- **Clear space and minimum size:** keep at least ¼ of the mark's width clear around it; minimum 24px on screen (the seedling still reads at 16px in the favicon).
+
 ## 9. How the prototype (Track D v2) uses this
 `prototype/build.py` generates CSS custom properties from `tokens.json`; `prototype/styles.css` implements the components (`.group`/`.row` grouped list, `.lt` large title, `.nav` translucent bar, `.segc` segmented control, `.cap` capsules, `.notice`, `.pill`, `.tile`, `.hero`, `.switch`). The prototype is the first consumer and therefore the first test of the spec. Header change (D53): the ☰ menu became a **profile button** next to the language switch that opens Profile & Settings (`#/menu`), which also holds Learn, Library, Archive, Help and About. The routes are unchanged.
 

@@ -40,6 +40,9 @@ Cards, headers and the hero use 46 openly licensed photos with an in-app credits
 ## Repo hygiene + D44 cross-links (2026-10-05)
 Added root `README.md` and `CONTRIBUTING.md`, `prototype/release.py` (single-command version bump with a `--check` CI guard in `pages.yml` and a new PR workflow `check.yml`), and completed the D44 cross-links (D44a). Prototype v0.6.1. These started from an external AI review package; it was fixed before adding (patch did not apply cleanly, release script failed on the current tree).
 
+## Name and mark (2026-10-05)
+The app is now **Lemlem · COP32** with an original seedling mark across header, favicon, PWA and install icons (D58, v0.7.0). The header Emergency button is in place (D44 complete).
+
 ## Where the project stands in practice
 - Phase 21 is complete on a heuristic/sandbox basis (see table). Real card sort/tree test, real-device spikes (S1, S6), provider outreach (S5), native-speaker Amharic review and user testing remain open.
 - Planning documentation is complete through Phase 20 (blueprint approved, D43). Phase 21 ("Stage 2 execution") is defined and ready to run: `docs/roadmap/stage2-execution-prompt.md` is the operating prompt for it — paste it into a fresh Claude Code session (after `/clear`) to execute Tracks A–F (IA heuristic walkthrough, spikes S1–S7 sandbox proofs, design system, clickable prototype, architecture ADRs, external .docx dossier).
