@@ -211,12 +211,12 @@ Founder asked for real, event-like pictures instead of illustrations. Cards, fea
 - **Data saver:** with Data saver on, cards fall back to the lightweight illustrations (no photo downloads).
 - **Offline:** photos are cached by the service worker as they are viewed.
 
-## 8d. Name and mark: Lemlem (D58, 2026-10-05)
-- **Name:** Lemlem (ለምለም, “lush, green, flourishing”), written “Lemlem · COP32” in the header and store name; home-screen label “Lemlem”. “COP32” stays in the name while this is a prototype (founder decision); the “Independent · not an official COP32 product” label stays on every screen.
-- **Mark:** a seedling (a stem plus two leaves with midribs; the larger leaf on the right and lighter) rising over two highland horizons, with a low sun at top left, on a vertical teal gradient (#1C7478 → #0B4247) with a soft top-left glow. Leaf greens: #7FCB3E → #B9EC7E and #A6E26B → #E2F7C6. Sun: #FFC27A → #E8862A. Original artwork; not derived from any COP32 or UNFCCC mark.
-- **Files:** `docs/design/brand/lemlem-mark.svg` (full-bleed master), `lemlem-mark-maskable.svg` (seedling and sun scaled to the 80% safe zone for Android masks), `lemlem-icon-512.png`; the prototype uses `prototype/icons/` (favicon.svg, favicon-32, icon-192/512, maskable-512, apple-touch-icon).
-- **Lockup:** 30px rounded mark + “Lemlem” (Atkinson Hyperlegible Next 800, −0.015em) + a small “COP32” pill (primarySoft). Below 380px the pill hides; the mark and name stay.
-- **Clear space and minimum size:** keep at least ¼ of the mark's width clear around it; minimum 24px on screen (the seedling still reads at 16px in the favicon).
+## 8d. Name and mark: COP32 prototype (D59, supersedes D58 Lemlem)
+- **Name:** “COP32” in the header with an amber **PROTOTYPE** pill (warningBg/warning); store name “COP32 (Prototype)”, home-screen label “COP32”. Founder decision for the prototype phase; it must be revisited before any public launch, because an app named only “COP32” can be mistaken for the official one (D1). The “not an official COP32 product” bar stays on every screen.
+- **Mark:** a seedling (stem plus two leaves with midribs) over two highland horizons with a low sun at top left, on a vertical teal gradient (#1C7478 → #0B4247). The large right leaf (#E2F7C6 → #A6E26B) carries the word **COP32** in dark teal (#0B4247), set along the leaf axis (−41°). The letters are vector paths from Atkinson Hyperlegible Next 800, so they look the same everywhere. Original artwork; not derived from any COP32 or UNFCCC mark.
+- **Legibility:** the word reads at 120px and up; at 48px and below (tab icon, small home-screen icons) the seedling carries recognition and the word is decorative.
+- **Files:** `docs/design/brand/cop32-mark.svg` (full-bleed master), `cop32-mark-maskable.svg` (80% safe zone for Android), `cop32-icon-512.png`; the prototype uses `prototype/icons/`.
+- **Lockup:** 30px rounded mark + “COP32” (Atkinson 800) + PROTOTYPE pill; below 380px the pill hides.
 
 ## 9. How the prototype (Track D v2) uses this
 `prototype/build.py` generates CSS custom properties from `tokens.json`; `prototype/styles.css` implements the components (`.group`/`.row` grouped list, `.lt` large title, `.nav` translucent bar, `.segc` segmented control, `.cap` capsules, `.notice`, `.pill`, `.tile`, `.hero`, `.switch`). The prototype is the first consumer and therefore the first test of the spec. Header change (D53): the ☰ menu became a **profile button** next to the language switch that opens Profile & Settings (`#/menu`), which also holds Learn, Library, Archive, Help and About. The routes are unchanged.

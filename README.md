@@ -1,6 +1,6 @@
-# Lemlem · COP32 — independent companion concept
+# COP32 companion — independent concept (prototype)
 
-**Lemlem** (ለምለም, “lush, green”) is an unofficial concept for a companion app for COP32 in Addis Ababa, Ethiopia.
+An unofficial concept for a companion app for COP32 in Addis Ababa, Ethiopia.
 **Not an official COP32, UNFCCC, or government product.** All content in the
 prototype is invented sample data; Amharic text is machine-drafted and has not
 been reviewed by a native speaker.
@@ -26,7 +26,7 @@ been reviewed by a native speaker.
 ## Current status
 
 Pre-production concept. Done: IA (D16 v2) with cross-links (D44), visual design
-"Highland Mist" (D53) with the card/photo layer (D54, D56, D57), the Lemlem name and mark (D58), installable
+"Highland Mist" (D53) with the card/photo layer (D54, D56, D57), the COP32 prototype name and seedling mark (D59), installable
 offline PWA (D55), and a heuristic walkthrough that gives risk estimates.
 Deliberately **not** done, because it needs real people: card sort, tree test,
 native-speaker Amharic review, device and screen-reader testing, and real
