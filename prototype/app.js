@@ -1,4 +1,4 @@
-/* COP32 companion — CLICKABLE PROTOTYPE, "Highland Mist" visual design (D53). Sample data only. Vanilla JS, no dependencies.
+/* Lemlem · COP32 companion — CLICKABLE PROTOTYPE, "Highland Mist" visual design (D53). Sample data only. Vanilla JS, no dependencies.
    IA unchanged (D16 v2): 5 tabs + header actions; every hash route from v1 still resolves (tree-test T1–T12). */
 (() => {
 const D = window.DATA, ICONS = window.ICONS || {}, $ = (s, r = document) => r.querySelector(s);
@@ -93,14 +93,14 @@ const ACT = [['#/menu/learn/cop', 'ticket', 'Can I attend?', 'a1'], ['#/programm
 // ---- PWA: install, real offline state, update notice
 const PWA = { prompt: null, standalone: (() => { try { return matchMedia('(display-mode: standalone)').matches || navigator.standalone === true; } catch { return false; } })(), ios: /iphone|ipad|ipod/i.test(navigator.userAgent), update: null };
 window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); PWA.prompt = e; if (/^(home|menu)/.test(route())) render(); });
-window.addEventListener('appinstalled', () => { PWA.prompt = null; PWA.standalone = true; toast('Installed — open COP32 from your home screen'); render(); });
+window.addEventListener('appinstalled', () => { PWA.prompt = null; PWA.standalone = true; toast('Installed — open Lemlem from your home screen'); render(); });
 window.addEventListener('online', () => { S.offline = false; toast('Back online'); render(); });
 window.addEventListener('offline', () => { S.offline = true; toast('You are offline — saved content still works'); render(); });
 if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
   try { navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(reg => { reg.addEventListener('updatefound', () => { const w = reg.installing; if (!w) return; w.addEventListener('statechange', () => { if (w.state === 'installed' && navigator.serviceWorker.controller) { PWA.update = w; render(); } }); }); }).catch(() => {});
     const hadController = !!navigator.serviceWorker.controller; navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController && !PWA.reloaded) { PWA.reloaded = true; location.reload(); } }); } catch {} }
 const canInstall = () => !PWA.standalone && (PWA.prompt || PWA.ios);
-const installCard = () => canInstall() ? `<div class="install"><span class="install-ic"><img src="icons/icon-192.png" alt="" width="48" height="48"></span><div class="rt"><b>Install the app</b><small>${PWA.prompt ? 'Add COP32 to your home screen. Works offline.' : 'Tap Share, then “Add to Home Screen”.'}</small></div>${PWA.prompt ? `<button class="btn go" id="install">Install</button>` : ''}</div>` : '';
+const installCard = () => canInstall() ? `<div class="install"><span class="install-ic"><img src="icons/icon-192.png" alt="" width="48" height="48"></span><div class="rt"><b>Install the app</b><small>${PWA.prompt ? 'Add Lemlem to your home screen. Works offline.' : 'Tap Share, then “Add to Home Screen”.'}</small></div>${PWA.prompt ? `<button class="btn go" id="install">Install</button>` : ''}</div>` : '';
 // ---- screens
 const V = {};
 V.home = () => {
@@ -187,7 +187,7 @@ V.menu = p => { const k = p[1];
     <div class="glabel">Preferences</div><div class="group">${row({ href: '#/menu/settings', icon: 'languages', title: t('Language'), val: S.lang === 'am' ? '<span lang="am">አማርኛ</span>' : 'English' })}<div class="row"><span class="ri c4">${svg('sun-moon')}</span><label class="rt" for="s-dark"><b>Dark mode</b><small>${S.theme === 'auto' ? 'Matching your phone' : S.theme === 'dark' ? 'On' : 'Off (light)'}</small></label><input type="checkbox" role="switch" class="switch" id="s-dark" ${S.theme === 'dark' ? 'checked' : ''}></div>${row({ href: '#/menu/settings', icon: 'type', tone: 'c5', title: 'Text size', val: S.scale > 1 ? '200%' : 'Default' })}${row({ href: '#/menu/settings', icon: 'clock', tone: 'c2', title: 'Time zone', val: 'EAT' })}</div>
     <div class="glabel">Learn &amp; library</div><div class="group">${row({ href: '#/menu/learn', icon: 'book-open', title: 'Learn', sub: 'COP explained, climate basics, glossary' })}${row({ href: '#/menu/library', icon: 'library', tone: 'c5', title: 'Library', sub: 'Documents and reports' })}${row({ href: '#/menu/archive', icon: 'archive', tone: 'c4', title: 'Archive', sub: 'Past editions' })}</div>
     <div class="glabel">Privacy</div><div class="group">${row({ href: '#/menu/settings', icon: 'shield', title: 'Privacy & data' })}${row({ href: '#/menu/settings', icon: 'trash-2', tone: 'c3', title: '<span style="color:var(--c-danger)">Delete my data</span>' })}</div>
-    <div class="glabel">Help</div><div class="group">${row({ href: '#/menu/help', icon: 'circle-help', title: 'Help & FAQ' })}${row({ href: '#/menu/about', icon: 'info', tone: 'c5', title: 'About this prototype', val: 'v0.6.1' })}${row({ href: '#/menu/credits', icon: 'library', tone: 'c4', title: 'Photo credits' })}</div>
+    <div class="glabel">Help</div><div class="group">${row({ href: '#/menu/help', icon: 'circle-help', title: 'Help & FAQ' })}${row({ href: '#/menu/about', icon: 'info', tone: 'c5', title: 'About this prototype', val: 'v0.7.0' })}${row({ href: '#/menu/credits', icon: 'library', tone: 'c4', title: 'Photo credits' })}</div>
     ${S.signed ? `<button class="btn danger wide" id="signout" style="margin-top:var(--s-7)">${svg('log-out')}Sign out</button>` : ''}
     <p class="fine">PROTOTYPE · sample data · not an official COP32 app</p>`;
   if (k === 'learn') { if (p[2] === 'glossary') return `${largeTitle('Glossary', 'Learn')}<div class="group">${D.glossary.map(([a, b]) => `<div class="row notile"><span class="rt"><b>${a}</b><small>${b} (sample wording)</small></span></div>`).join('')}</div>`;
@@ -196,7 +196,7 @@ V.menu = p => { const k = p[1];
   if (k === 'library') return `${largeTitle('Library', 'Documents & reports')}<div class="group">${D.docs.map(d => row({ icon: 'file-text', title: esc(d.title), sub: `${d.kind} · ${d.size}`, val: '' })).join('')}</div>`;
   if (k === 'archive') return `${largeTitle('Archive', 'Past editions')}<div class="group">${D.archive.map(a => row({ icon: 'archive', tone: 'c4', title: esc(a.title) })).join('')}</div>`;
   if (k === 'help') return `${largeTitle('Help & FAQ')}<div class="group">${['How do I save a session?', 'Does the app work offline?', 'Is this the official COP32 app?', 'How do I change the language?'].map(x => row({ title: x })).join('')}</div><p class="fine">Sample FAQ entries.</p>`;
-  if (k === 'about') return `${largeTitle('About')}${notice('warning', 'Independent platform — not an official COP32, UNFCCC or government product.', 'This is a prototype with invented sample data.')}<p class="prose muted">Amharic text in this prototype is machine-drafted and has not been reviewed by a native speaker. Design: Highland Mist v0.2. Icons: Lucide (ISC). Fonts: Atkinson Hyperlegible Next and Noto Sans Ethiopic (OFL).</p><div class="group">${row({ href: '#/test', icon: 'flask-conical', title: 'Tree-test dry run' })}${row({ href: '#/states', icon: 'layers', tone: 'c5', title: 'UI states gallery' })}</div>`;
+  if (k === 'about') return `${largeTitle('About')}${notice('warning', 'Independent platform — not an official COP32, UNFCCC or government product.', 'This is a prototype with invented sample data.')}<p class="prose muted">Amharic text in this prototype is machine-drafted and has not been reviewed by a native speaker. Name and mark: Lemlem (ለምለም, “lush, green”; D58). Design: Highland Mist. Icons: Lucide (ISC). Fonts: Atkinson Hyperlegible Next and Noto Sans Ethiopic (OFL).</p><div class="group">${row({ href: '#/test', icon: 'flask-conical', title: 'Tree-test dry run' })}${row({ href: '#/states', icon: 'layers', tone: 'c5', title: 'UI states gallery' })}</div>`;
   if (k === 'credits') { let C = {}; try { C = window.CREDITS || {}; } catch {}
     return `${largeTitle('Photo credits', 'About')}<p class="prose muted">Photos are openly licensed (CC BY, CC BY-SA, CC0 or public domain) from Wikimedia Commons, found through Openverse. They were cropped and resized for this prototype. They show real places and events in general; they do not show COP32, and no person in them is connected with this prototype or its invented speakers.</p><div class="group">${Object.entries(C).map(([k, c]) => `<a class="row" href="${esc(c.source)}" target="_blank" rel="noopener"><img class="credit-thumb" src="img/${k}.webp" alt="" loading="lazy"><span class="rt"><b>${esc(c.title)}</b><small>${esc(c.creator)} · ${String(c.license).toUpperCase()} ${esc(c.version || '')}</small></span>${svg('external-link', 'chev')}</a>`).join('')}</div>`; }
   if (k === 'settings') return settings(); return notFound(); };
@@ -246,12 +246,13 @@ function render() {
   setPrefs(); const full = route(), [pathPart, qs] = full.split('?'), p = pathPart.split('/'), q = new URLSearchParams(qs || ''), key = p[0] === 'session' ? 'programme' : p[0];
   S.visited.push(pathPart); if (!S.firstTab && S.task) S.firstTab = pathPart;
   const view = V[p[0]] || (() => notFound()); const title = { home: 'Today', programme: 'Programme', map: 'Map', visit: 'Visit', updates: 'Updates', menu: 'Settings', search: 'Search', test: 'Test', states: 'States', session: 'Session' }[p[0]] || 'Not found';
-  document.title = `${title} — COP32 companion (PROTOTYPE)`;
+  document.title = `${title} — Lemlem · COP32 (PROTOTYPE)`;
   const task = S.task && D.tasks.find(x => x[0] === S.task);
   const isRoot = ROOTS.includes(p[0]) && p.length === 1 || (['programme', 'updates'].includes(p[0]) && p.length === 2);
   const backHref = p[0] === 'session' ? '#/programme' : p[0] === 'visit' ? '#/visit' : p[0] === 'menu' && p.length > 1 ? (p[1] === 'learn' && p[2] ? '#/menu/learn' : '#/menu') : p[0] === 'menu' || p[0] === 'search' ? '#/home' : '#/home';
-  const lead = isRoot ? `<a class="mark" href="#/home" aria-label="COP32 companion, home"><b>C32</b><span>Companion</span></a>` : `<a class="back" href="${backHref}" ${p[0] === 'session' || p[0] === 'search' ? 'data-back="1"' : ''}>${svg('chevron-left')}${t('Back')}</a>`;
-  app.innerHTML = `<header class="nav"><div class="lead">${lead}</div><span class="inline-title" aria-hidden="true">${tp(title)}</span>
+  const lead = isRoot ? `<a class="mark" href="#/home" aria-label="Lemlem, COP32 companion, home"><img src="icons/favicon.svg" alt="" width="30" height="30"><span class="wm">Lemlem</span><span class="cop">COP32</span></a>` : `<a class="back" href="${backHref}" ${p[0] === 'session' || p[0] === 'search' ? 'data-back="1"' : ''}>${svg('chevron-left')}${t('Back')}</a>`;
+  app.innerHTML = `<header class="nav"><div class="lead">${lead}</div>${isRoot ? '' : `<span class="inline-title" aria-hidden="true">${tp(title)}</span>`}
+    <a class="cb sos" href="#/visit/emergency" aria-label="${tp('Emergency & help')}" ${p[0] === 'visit' && p[1] === 'emergency' ? 'aria-current="page"' : ''}>${svg('siren')}</a>
     <a class="cb" href="#/updates/alerts" aria-label="Alerts, 1 unread">${svg('bell')}<span class="dot" aria-hidden="true"></span></a>
     <button class="lang" id="lg" aria-label="${S.lang === 'en' ? 'Switch language to Amharic' : 'Switch language to English'}"><span lang="${S.lang === 'en' ? 'am' : 'en'}">${S.lang === 'en' ? 'አማ' : 'EN'}</span></button>
     <a class="cb" href="#/menu" aria-label="Profile and settings" ${p[0] === 'menu' && !p[1] ? 'aria-current="page"' : ''}>${svg('circle-user-round')}</a></header>

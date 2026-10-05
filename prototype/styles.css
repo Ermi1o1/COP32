@@ -384,3 +384,16 @@ img.cover{display:block;width:100%;height:100%;object-fit:cover;background:var(-
 .credit-thumb{width:3.5rem;height:2.4rem;object-fit:cover;border-radius:.4rem;flex:none}
 .scard-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.18),rgba(0,0,0,0) 40%,rgba(0,0,0,.12));pointer-events:none}
 .badge-time,.badge-pub{z-index:1}
+
+/* Emergency button in the header (D44b) */
+.cb.sos{color:var(--c-danger)}
+.cb.sos::before{background:var(--c-dangerBg)}
+.cb.sos[aria-current=page]::before{box-shadow:inset 0 0 0 2px var(--c-danger)}
+@media (max-width:380px){.nav{gap:2px}.lang span{padding:0 .25rem}}
+
+/* Lemlem brand lockup (D58) */
+.mark{gap:var(--s-2)}
+.mark img{width:1.875rem;height:1.875rem;border-radius:.5rem;display:block;flex:none;box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.mark .wm{font-weight:800;font-size:1.0625rem;letter-spacing:-.015em;color:var(--c-text)}
+.mark .cop{font-size:.625rem;font-weight:800;letter-spacing:.06em;padding:.15rem .4rem;border-radius:999px;background:var(--c-primarySoft);color:var(--c-onPrimarySoft)}
+@media (max-width:380px){.mark span.wm{display:inline}.mark .cop{display:none}}

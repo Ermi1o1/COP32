@@ -1,7 +1,7 @@
 {
-  "name": "COP32 Companion (Prototype)",
-  "short_name": "COP32",
-  "description": "Unofficial COP32 companion prototype with invented sample data. Not an official COP32 product.",
+  "name": "Lemlem · COP32 (Prototype)",
+  "short_name": "Lemlem",
+  "description": "Lemlem, an independent COP32 companion prototype with invented sample data. Not an official COP32 product.",
   "id": "./",
   "start_url": "./#/home",
   "scope": "./",
@@ -10,15 +10,67 @@
   "background_color": "#F2F6F4",
   "theme_color": "#155E63",
   "lang": "en",
-  "categories": ["travel", "news", "education"],
+  "categories": [
+    "travel",
+    "news",
+    "education"
+  ],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
   ],
   "shortcuts": [
-    { "name": "Programme", "url": "./#/programme/schedule", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "My agenda", "url": "./#/programme/agenda", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Map", "url": "./#/map", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+    {
+      "name": "Programme",
+      "url": "./#/programme/schedule",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "My agenda",
+      "url": "./#/programme/agenda",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Map",
+      "url": "./#/map",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }

@@ -1,4 +1,4 @@
-# COP32 companion — clickable prototype (sample data)
+# Lemlem · COP32 — clickable prototype (sample data)
 
 > **PROTOTYPE — sample data, not an official COP32 product.** Independent, unofficial concept (D1, D3). All content is synthetic; Amharic text is machine-drafted and **not reviewed by a native speaker**. This is not the production app and does not depend on the mobile-framework decision (S1).
 
