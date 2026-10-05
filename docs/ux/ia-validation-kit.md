@@ -105,7 +105,7 @@ Menu: Learn (COP explained, Climate basics, Africa & Ethiopia, Green Legacy, Glo
 | T6 | Find a step-free entrance to the venue. | Map → Accessibility |
 | T7 | You want to see a traditional coffee ceremony. | Visit → Coffee culture |
 | T8 | Change the app language to Amharic. | Menu → Me & Settings → Language (or header switch) |
-| T9 | Learn what "loss and damage" means. | Menu → Learn → Glossary |
+| T9 | Learn what "loss and damage" means. | Menu → Learn → Glossary **or** Updates → Explainers (accept both; note which — Explainers added as an accepted home by D44, 2026-10-05) |
 | T10 | After COP32, find a recording of the opening ceremony. | Updates → Live & recorded **or** Menu → Archive |
 | T11 | Apply for an Ethiopian visa. | Visit → Before you travel → Visa |
 | T12 | Delete your data from the app. | Menu → Me & Settings → Privacy & data |
